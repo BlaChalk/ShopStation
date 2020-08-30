@@ -14,7 +14,7 @@ class AddToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->smallInteger('phone')->after('password');
+            $table->Integer('phone')->after('password');
             $table->text('address')->after('phone');
         });
     }
