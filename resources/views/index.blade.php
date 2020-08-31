@@ -50,14 +50,14 @@
         <!--header start-->
         <header class="l-header">
 
-            <div id="header" class="l-navbar l-navbar_expand l-navbar_t-dark-trans js-navbar-sticky">
+            <div class="l-navbar l-navbar_expand l-navbar_t-dark-trans js-navbar-sticky">
                 <div class="container-fluid">
                     <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
 
                         <!--logo start-->
                         <a href="/" class="logo-brand">
-                            <img src="images/head/logo-dark.png" alt="Comfort">
-                            {{-- <img class="retina" src="images/favicon.jpg" alt="Massive"> --}}
+                            <img id="logo" src="images/head/logo.jpg" alt="Comfort">
+                            {{-- <img class="retina" src="assets/img/logo-dark.png" alt="Massive"> --}}
                         </a>
                         <!--logo end-->
 
