@@ -7,7 +7,7 @@
     $document = $(document);
     $body = $("body");
 
-    
+
     /*==============================================
      Pre loader init
      ===============================================*/
@@ -94,6 +94,9 @@
             }).on("sticky-start", function() {
                 if ($navbarSticky.hasClass("l-navbar_s-center")) {
                     $brandLogo.height(0);
+                    setTimeout(function() {
+                        $("#logo").attr("src", "images/head/logo-dark.png");
+                    }, 300);
                     setTimeout(function() {
                         $brandLogo.addClass("sticky-fix").height(centerLogoStickyHeight);
                     }, 300);
@@ -207,7 +210,7 @@
                     $portfolioGeneral.isotope("layout");
                 }, 400);
             });
-            
+
             $portfolioMasonry.imagesLoaded().done(function() {
                 setTimeout(function() {
                     $portfolioMasonry.isotope("layout");

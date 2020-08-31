@@ -49708,6 +49708,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./public/assets/sass/style.scss":
+/*!***************************************!*\
+  !*** ./public/assets/sass/style.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -49883,15 +49894,16 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!********************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/frontend.sass ***!
-  \********************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/frontend.sass ./public/assets/sass/style.scss ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\LaravelWeb\ShopStation\resources\js\app.js */"./resources/js/app.js");
 __webpack_require__(/*! C:\LaravelWeb\ShopStation\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\LaravelWeb\ShopStation\resources\sass\frontend.sass */"./resources/sass/frontend.sass");
+__webpack_require__(/*! C:\LaravelWeb\ShopStation\resources\sass\frontend.sass */"./resources/sass/frontend.sass");
+module.exports = __webpack_require__(/*! C:\LaravelWeb\ShopStation\public\assets\sass\style.scss */"./public/assets/sass/style.scss");
 
 
 /***/ })
