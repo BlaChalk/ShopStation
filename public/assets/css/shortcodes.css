@@ -44,7 +44,7 @@
 }
 
 .page-title .breadcrumb.box {
-    margin-top: -20px; 
+    margin-top: -20px;
     padding: 15px;
     background: rgba(0, 0, 0, .5);
 }
@@ -86,7 +86,7 @@
 -----------------------------------------------------------------*/
 .page-title.no-bg {
     border-top: 1px solid #f5f5f5;
-    border-bottom: 1px solid #f5f5f5; 
+    border-bottom: 1px solid #f5f5f5;
     background: none;
 }
 
@@ -94,7 +94,7 @@
 	 background page title
 -----------------------------------------------------------------*/
 .page-title.background-title {
-    height: auto; 
+    height: auto;
     padding: 200px 0;
     background-image: url(../img/parallax/1.jpg);
     /*background-attachment: fixed;*/
@@ -107,7 +107,7 @@
 	 big background page title
 -----------------------------------------------------------------*/
 .page-title.banner-background {
-    height: 630px; 
+    height: 630px;
     padding: 200px 0;
     background-image: url(../img/about/02.jpg);
     /*background-attachment: fixed;*/
@@ -120,7 +120,7 @@
 	 parallax page title
 -----------------------------------------------------------------*/
 .page-title.parallax-title {
-    height: auto; 
+    height: auto;
     padding: 200px 0;
     background-image: url(../img/parallax/2.jpg);
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@
 	 pattern page title
 -----------------------------------------------------------------*/
 .page-title.pattern-title {
-    height: auto; 
+    height: auto;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
 }
@@ -168,7 +168,7 @@
 }
 
 .page-title.page-title-right .breadcrumb {
-    right: auto; 
+    right: auto;
     left: 30px;
 }
 
@@ -194,14 +194,14 @@
 }
 
 .featured-item.border-box {
-    margin-bottom: -1px; 
+    margin-bottom: -1px;
     margin-left: -1px;
     padding: 50px;
     border: 1px solid #f2f2f2;
 }
 
 .featured-item.border-box:hover {
-    color: #7e7e7e; 
+    color: #7e7e7e;
     border: 1px solid transparent;
     background: #222;
 }
@@ -221,7 +221,7 @@
 }
 
 .feature-box-grid {
-    padding-right: 15px; 
+    padding-right: 15px;
     padding-left: 15px;
 }
 
@@ -273,7 +273,7 @@
 .feature-box-grid .col-xs-7,
 .feature-box-grid .col-xs-8,
 .feature-box-grid .col-xs-9 {
-    padding-right: 0; 
+    padding-right: 0;
     padding-left: 0;
 }
 
@@ -282,7 +282,7 @@
 -----------------------------------------------------------------*/
 .feature-parallax {
     background-image: url("../img/parallax/2.jpg");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -298,7 +298,7 @@
 }
 
 .featured-item .bottom-border i {
-    display: inline-block; 
+    display: inline-block;
     padding-bottom: 30px;
     border-bottom: 2px solid;
 }
@@ -314,7 +314,7 @@
 .featured-item.feature-outline .icon {
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
     display: block;
 }
 
@@ -343,7 +343,7 @@
     text-align: center;
     border-radius: 4px;
     background: #222;
-    box-shadow: 0 0 0 10px #fff; 
+    box-shadow: 0 0 0 10px #fff;
     line-height: 60px;
 }
 
@@ -354,7 +354,7 @@
 }
 
 .feature-border-box .title {
-    display: inline-block; 
+    display: inline-block;
     margin-top: 30px;
 }
 
@@ -363,7 +363,7 @@
 -----------------------------------------------------------------*/
 .feature-bg-box {
     position: relative;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
     padding: 30px;
     border-radius: 4px;
 }
@@ -388,7 +388,7 @@
     text-align: center;
     border-radius: 50%;
     background: #fff;
-    box-shadow: 0 0 0 5px #f6f6f6; 
+    box-shadow: 0 0 0 5px #f6f6f6;
     line-height: 80px;
 }
 
@@ -399,7 +399,7 @@
 }
 
 .feature-bg-box .title {
-    display: inline-block; 
+    display: inline-block;
     margin-top: 40px;
 }
 
@@ -415,7 +415,7 @@
 }
 
 .featured-box .one-third .featured-item {
-    min-height: 360px; 
+    min-height: 360px;
     padding: 15% 20%;
 }
 
@@ -456,7 +456,7 @@
 .featured-item.feature-outline.right .icon {
     position: absolute;
     top: 0;
-    right: 0; 
+    right: 0;
     display: block;
 }
 
@@ -465,7 +465,7 @@
 -------------------------------------------------------------------*/
 .accordion > dt {
     margin-bottom: 10px;
-    letter-spacing: .2em; 
+    letter-spacing: .2em;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
@@ -481,7 +481,7 @@
     padding: 14px 20px;
     text-decoration: none;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     color: #222;
     border: 1px solid #e8e8e8;
     background: #e8e8e8;
@@ -493,7 +493,7 @@
 
 .accordion > dt > a:hover,
 .accordion > dt > a.active {
-    cursor: pointer; 
+    cursor: pointer;
     color: #fff;
     border-color: #222;
     background: #222;
@@ -517,7 +517,7 @@
     font-variant: normal;
     line-height: 15px;
 
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     speak: none;
 }
 
@@ -534,7 +534,7 @@
 .accordion > dd {
     margin-bottom: 10px;
     padding: 10px 20px 20px;
-    color: #777; 
+    color: #777;
     font-size: 14px;
     line-height: 1.8;
 }
@@ -556,7 +556,7 @@ dl.accordion.time-line {
 
 dl.accordion.time-line:before {
     position: absolute;
-    z-index: 0; 
+    z-index: 0;
     top: 25px;
     bottom: 10px;
     left: 15px;
@@ -567,7 +567,7 @@ dl.accordion.time-line:before {
 .accordion.time-line > dd {
     margin-bottom: 10px;
     padding: 10px 20px 20px 40px;
-    color: #777; 
+    color: #777;
     font-size: 14px;
     line-height: 1.8;
 }
@@ -579,7 +579,7 @@ dl.accordion.time-line:before {
     width: 30px;
     height: 30px;
     margin-top: -15px;
-    padding-left: 3px; 
+    padding-left: 3px;
     content: "\e648";
     text-align: center;
     text-transform: none;
@@ -608,7 +608,7 @@ dl.accordion.time-line:before {
     padding: 14px 20px 14px 40px;
     text-decoration: none;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     color: #222;
     border: none;
 }
@@ -623,7 +623,7 @@ dl.accordion.time-line:before {
 -------------------------------------------------------------------*/
 .toggle > dt {
     margin-bottom: 10px;
-    letter-spacing: .2em; 
+    letter-spacing: .2em;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 400;
@@ -635,7 +635,7 @@ dl.accordion.time-line:before {
     padding: 14px 20px;
     text-decoration: none;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
     color: #222;
     border: 1px solid #e8e8e8;
     background: #e8e8e8;
@@ -651,7 +651,7 @@ dl.accordion.time-line:before {
 
 .toggle > dt > a:hover,
 .toggle > dt > a.active {
-    cursor: pointer; 
+    cursor: pointer;
     color: #fff;
     border-color: #222;
     background: #222;
@@ -675,7 +675,7 @@ dl.accordion.time-line:before {
     font-variant: normal;
     line-height: 15px;
 
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     speak: none;
 }
 
@@ -692,7 +692,7 @@ dl.accordion.time-line:before {
 .toggle > dd {
     margin-bottom: 10px;
     padding: 10px 20px 20px;
-    color: #777; 
+    color: #777;
     font-size: 14px;
     line-height: 1.8;
 }
@@ -707,7 +707,7 @@ dl.toggle.time-line {
 dl.toggle.time-line:before {
     position: absolute;
     /*width: 1px;*/
-    z-index: 0; 
+    z-index: 0;
     top: 25px;
     bottom: 10px;
     left: 15px;
@@ -719,7 +719,7 @@ dl.toggle.time-line:before {
 .toggle.time-line > dd {
     margin-bottom: 10px;
     padding: 10px 20px 20px 40px;
-    color: #777; 
+    color: #777;
     font-size: 14px;
     line-height: 1.8;
 }
@@ -731,7 +731,7 @@ dl.toggle.time-line:before {
     width: 30px;
     height: 30px;
     margin-top: -15px;
-    padding-left: 3px; 
+    padding-left: 3px;
     content: "\e648";
     text-align: center;
     text-transform: none;
@@ -760,7 +760,7 @@ dl.toggle.time-line:before {
     padding: 14px 20px 14px 40px;
     text-decoration: none;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
     color: #222;
     border: none;
 }
@@ -777,7 +777,7 @@ dl.toggle.time-line:before {
 .nav-tabs.nav-justified > li > a {
     margin-right: -1px;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #434343;
     border: 1px solid #eee;
@@ -793,7 +793,7 @@ dl.toggle.time-line:before {
 .nav-tabs.nav-justified > .active > a:hover {
     cursor: default;
     border: 1px solid #eee;
-    border-bottom-color: transparent; 
+    border-bottom-color: transparent;
     background-color: #fff;
 }
 
@@ -832,7 +832,7 @@ dl.toggle.time-line:before {
 
 /*border tabs*/
 .border-tabs .panel-body {
-    margin-top: -1px; 
+    margin-top: -1px;
     padding: 30px;
     border: 1px solid #eee;
 }
@@ -844,7 +844,7 @@ dl.toggle.time-line:before {
 }
 
 .round-tabs .nav-pills > li > a {
-    color: #434343; 
+    color: #434343;
     border: 1px solid #eaeaea;
     border-radius: 30px;
 }
@@ -875,7 +875,7 @@ dl.toggle.time-line:before {
 }
 
 .square-tabs .nav-pills > li > a {
-    color: #434343; 
+    color: #434343;
     border: 1px solid #eaeaea;
     border-radius: 0;
 }
@@ -883,7 +883,7 @@ dl.toggle.time-line:before {
 /**/
 .tab-parallax {
     background-image: url("../img/pattern-2.png");
-    background-repeat: repeat; 
+    background-repeat: repeat;
     /*background-size: cover;*/
     background-attachment: fixed;
 }
@@ -913,7 +913,7 @@ dl.toggle.time-line:before {
 .icon-box-tabs .nav-pills > li > a {
     position: relative;
     -webkit-transition: all .3s ease;
-            transition: all .3s ease; 
+            transition: all .3s ease;
     color: #434343;
     border-radius: 0;
     background: rgba(34, 34, 34, .05);
@@ -928,7 +928,7 @@ dl.toggle.time-line:before {
     margin-left: -10px;
     content: "";
     -webkit-transition: all .3s ease;
-            transition: all .3s ease; 
+            transition: all .3s ease;
     opacity: 0;
     border-width: 10px 10px 0 10px;
     border-style: solid;
@@ -968,7 +968,7 @@ dl.toggle.time-line:before {
 .line-tab .nav-tabs.nav-justified > .active > a,
 .line-tab .nav-tabs.nav-justified > .active > a:focus,
 .line-tab .nav-tabs.nav-justified > .active > a:hover {
-    border-top: 1px solid transparent; 
+    border-top: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid #333 !important;
     border-left: 1px solid transparent;
@@ -980,7 +980,7 @@ dl.toggle.time-line:before {
 
 /**/
 .icon-tabs .nav-pills > li > a {
-    border: none; 
+    border: none;
     border-radius: 0;
 }
 
@@ -1004,7 +1004,7 @@ dl.toggle.time-line:before {
 }
 
 .icon-tabs li i {
-    display: block; 
+    display: block;
     margin-bottom: 10px;
     font-size: 55px;
 }
@@ -1025,7 +1025,7 @@ dl.toggle.time-line:before {
     background-image: url("../img/parallax/13.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
     background-size: cover;
 }
 
@@ -1034,7 +1034,7 @@ dl.toggle.time-line:before {
 -------------------------------------------------------------------*/
 .promo-box {
     display: block;
-    width: 100%; 
+    width: 100%;
     padding: 40px;
 }
 
@@ -1052,7 +1052,7 @@ dl.toggle.time-line:before {
 .promo-box h5,
 .promo-box h6 {
     margin-bottom: 0;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -1077,7 +1077,7 @@ dl.toggle.time-line:before {
 .promo-info h4 span,
 .promo-info h5 span,
 .promo-info h6 span {
-    display: inline; 
+    display: inline;
     margin-top: 0;
 }
 
@@ -1116,7 +1116,7 @@ dl.toggle.time-line:before {
 }
 
 .text-center .promo-info span {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -1138,7 +1138,7 @@ dl.toggle.time-line:before {
 }
 
 .promo-pattern {
-    height: auto; 
+    height: auto;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
 }
@@ -1181,7 +1181,7 @@ dl.toggle.time-line:before {
     margin-right: 20px;
     /*font-family: 'Abel', sans-serif;*/
     letter-spacing: 1px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     border-radius: 0;
 }
 
@@ -1208,7 +1208,7 @@ dl.toggle.time-line:before {
 }
 
 .btn-dark-solid {
-    color: #fff; 
+    color: #fff;
     background: #222;
 }
 
@@ -1221,43 +1221,43 @@ dl.toggle.time-line:before {
 
 .btn-theme-color:hover,
 .btn-theme-color:focus {
-    color: #fff; 
+    color: #fff;
     background: #000;
 }
 
 .btn-theme-color.light-hover:hover,
 .btn-theme-color.light-hover:focus {
-    color: #222 !important; 
+    color: #222 !important;
     background: #fff !important;
 }
 
 .btn-dark-solid.btn-transparent {
-    color: #222; 
+    color: #222;
     background: rgba(0, 0, 0, .1);
 }
 
 /*dark border button*/
 .btn-dark-border {
-    color: #222; 
+    color: #222;
     border: 1px solid #222;
     background: transparent;
 }
 
 .btn-dark-border.btn-transparent {
-    color: #222; 
+    color: #222;
     border: 1px solid rgba(0, 0, 0, .15);
     background: transparent;
 }
 
 .btn-dark-border:hover {
-    color: #fff; 
+    color: #fff;
     border: 1px solid #222;
     background: #222;
 }
 
 /*light*/
 .btn-light-solid {
-    color: #222; 
+    color: #222;
     background: #fff;
 }
 
@@ -1267,31 +1267,31 @@ dl.toggle.time-line:before {
 }
 
 .btn-light-solid.btn-transparent {
-    color: #fff; 
+    color: #fff;
     background: rgba(255, 255, 255, .2);
 }
 
 .btn-dark-solid:hover.btn-transparent:hover {
-    color: #fff !important; 
+    color: #fff !important;
     background: #222;
 }
 
 /*light border button*/
 .btn-light-border {
-    color: #fff; 
+    color: #fff;
     border: 1px solid #fff;
     background: transparent;
 }
 
 .btn-light-border.btn-transparent {
-    color: #fff; 
+    color: #fff;
     border: 1px solid rgba(255, 255, 255, .15);
     background: transparent;
 }
 
 .btn-light-border:hover,
 .btn-light-border:focus {
-    color: #222 !important; 
+    color: #222 !important;
     border: 1px solid #fff;
     background: #fff;
 }
@@ -1305,7 +1305,7 @@ dl.toggle.time-line:before {
 }
 
 .fun-factor .icon i {
-    color: #222; 
+    color: #222;
     font-size: 36px;
 }
 
@@ -1344,7 +1344,7 @@ dl.toggle.time-line:before {
     content: "";
     -webkit-transform: rotate(30deg);
         -ms-transform: rotate(30deg);
-            transform: rotate(30deg); 
+            transform: rotate(30deg);
     background: rgba(0, 0, 0, .2);
 }
 
@@ -1353,7 +1353,7 @@ dl.toggle.time-line:before {
     background-image: url(../img/parallax/2.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
 }
 
@@ -1469,7 +1469,7 @@ dl.toggle.time-line:before {
 .gray-border-factor .col-xs-7,
 .gray-border-factor .col-xs-8,
 .gray-border-factor .col-xs-9 {
-    padding-right: 0; 
+    padding-right: 0;
     padding-left: 0;
 }
 
@@ -1545,7 +1545,7 @@ dl.toggle.time-line:before {
 .post-grid .col-xs-7,
 .post-grid .col-xs-8,
 .post-grid .col-xs-9 {
-    padding-right: 0; 
+    padding-right: 0;
     padding-left: 0;
 }
 
@@ -1580,7 +1580,7 @@ dl.toggle.time-line:before {
     position: absolute;
     left: 50%;
     display: block;
-    width: 15px; 
+    width: 15px;
     height: 14px;
     margin-left: -7px;
     content: "";
@@ -1597,12 +1597,12 @@ dl.toggle.time-line:before {
 }
 
 .post-single .post-desk {
-    height: 309px; 
+    height: 309px;
     padding: 30px 0;
 }
 
 .post-grid .post-single .post-desk {
-    height: 309px; 
+    height: 309px;
     padding: 40px;
 }
 
@@ -1633,7 +1633,7 @@ dl.toggle.time-line:before {
     float: left;
     width: 100%;
     height: auto;
-    margin-right: 0; 
+    margin-right: 0;
     margin-bottom: 25px;
     padding-top: 0;
     letter-spacing: 2px;
@@ -1656,7 +1656,7 @@ dl.toggle.time-line:before {
 .post-single .post-desk .mid-align {
     position: absolute;
     top: 50%;
-    padding-right: 40px; 
+    padding-right: 40px;
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
             transform: translate(0, -50%);
@@ -1696,7 +1696,7 @@ dl.toggle.time-line:before {
 .post-list-aside .post-single .post-desk .date,
 .post-list .post-single .post-desk a.author,
 .post-list-aside .post-desk a.author {
-    color: #909090; 
+    color: #909090;
     font-size: 12px;
 }
 
@@ -1710,7 +1710,7 @@ dl.toggle.time-line:before {
 }
 
 .post-list .post-single .post-desk a.author:after {
-    padding-right: 5px; 
+    padding-right: 5px;
     padding-left: 10px;
     content: "|";
 }
@@ -1748,7 +1748,7 @@ dl.toggle.time-line:before {
 }
 
 .post-list-aside .post-desk a.author:after {
-    padding-right: 5px; 
+    padding-right: 5px;
     padding-left: 10px;
     content: "|";
 }
@@ -1761,7 +1761,7 @@ dl.toggle.time-line:before {
     background-image: url("../img/parallax/4.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
     background-size: cover;
 }
 
@@ -1778,7 +1778,7 @@ dl.toggle.time-line:before {
 }
 
 .post-parallax .massive-progress .progress-bar {
-    color: #222; 
+    color: #222;
     background: #fff;
 }
 
@@ -1787,7 +1787,7 @@ dl.toggle.time-line:before {
 }
 
 .post-parallax .dark-overlay {
-    position: absolute; 
+    position: absolute;
     top: 0;
     right: 0;
     width: 50%;
@@ -1803,7 +1803,7 @@ dl.toggle.time-line:before {
 
 .v-middle {
     display: table;
-    width: 100%; 
+    width: 100%;
     height: 400px;
     vertical-align: middle;
 }
@@ -1867,7 +1867,7 @@ dl.toggle.time-line:before {
 
 .title-img img {
     width: 100%;
-    height: auto; 
+    height: auto;
     border: none !important;
 }
 
@@ -1875,7 +1875,7 @@ dl.toggle.time-line:before {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
     padding: 10px;
     color: #fff;
     background: rgba(0, 0, 0, .5);
@@ -1906,7 +1906,7 @@ dl.toggle.time-line:before {
 }
 
 .portfolio .portfolio-item .thumb img {
-    display: block; 
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -1919,7 +1919,7 @@ dl.toggle.time-line:before {
     left: 0;
     margin: 0;
     -webkit-transition: all .3s;
-            transition: all .3s; 
+            transition: all .3s;
     opacity: 0;
     border: 20px solid rgba(0, 0, 0, .1);
     background-color: rgba(255, 255, 255, .9);
@@ -1946,7 +1946,7 @@ dl.toggle.time-line:before {
     bottom: 0;
     width: 100%;
     -webkit-transition: all .3s .2s;
-            transition: all .3s .2s; 
+            transition: all .3s .2s;
     -webkit-transform: translateY(-55%);
         -ms-transform: translateY(-55%);
             transform: translateY(-55%);
@@ -1976,7 +1976,7 @@ dl.toggle.time-line:before {
 
 .portfolio-description h4 {
     margin-bottom: 5px;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -1985,7 +1985,7 @@ dl.toggle.time-line:before {
     margin-bottom: 0;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #757575; 
+    color: #757575;
     font-size: 12px;
     /*font-family: 'Abel', sans-serif;*/
     font-weight: normal;
@@ -2039,7 +2039,7 @@ dl.toggle.time-line:before {
 .portfolio-filter li a {
     margin: 0 15px;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #a9a8a8;
     font-size: 14px;
@@ -2067,7 +2067,7 @@ dl.toggle.time-line:before {
     margin: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #222; 
+    color: #222;
     font-size: 14px;
 }
 
@@ -2076,7 +2076,7 @@ dl.toggle.time-line:before {
     margin: 0 0 10px 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #222; 
+    color: #222;
     font-size: 18px;
 }
 
@@ -2084,7 +2084,7 @@ dl.toggle.time-line:before {
     margin: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #7e7e7e; 
+    color: #7e7e7e;
     font-size: 12px;
     /*font-family: 'Abel', sans-serif;*/
     font-weight: normal;
@@ -2104,7 +2104,7 @@ dl.toggle.time-line:before {
 /* clear fix */
 .portfolio-masonry:after {
     display: block;
-    clear: both; 
+    clear: both;
     content: "";
 }
 
@@ -2129,7 +2129,7 @@ dl.toggle.time-line:before {
 }
 
 .isotope-hidden.isotope-item {
-    z-index: 1; 
+    z-index: 1;
     pointer-events: none;
 }
 
@@ -2182,12 +2182,12 @@ dl.toggle.time-line:before {
     top: 50%;
     right: 0;
     left: 0;
-    margin-top: -80px; 
+    margin-top: -80px;
     color: #fff;
 }
 
 .video-parallax .container i {
-    display: block; 
+    display: block;
     margin-bottom: 30px;
     font-size: 50px;
 }
@@ -2197,7 +2197,7 @@ dl.toggle.time-line:before {
 }
 
 .video-wrap {
-    position: relative; 
+    position: relative;
     overflow: hidden;
     width: 100%;
 }
@@ -2217,7 +2217,7 @@ dl.toggle.time-line:before {
 
 /*portfolio-meta*/
 .portfolio-meta {
-    padding: 0; 
+    padding: 0;
     list-style: none;
 }
 
@@ -2230,7 +2230,7 @@ dl.toggle.time-line:before {
     display: inline-block;
     width: 130px;
     letter-spacing: 2px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #000;
     font-size: 12px;
 }
@@ -2273,7 +2273,7 @@ dl.toggle.time-line:before {
 .portfolio-nav a {
     display: block;
     float: left;
-    margin-left: 20px; 
+    margin-left: 20px;
     text-align: center;
     color: #aeaeae;
 }
@@ -2286,7 +2286,7 @@ dl.toggle.time-line:before {
 .portfolio-nav a:hover,
 .portfolio-nav a:hover span {
     -webkit-transition: all .3s ease;
-            transition: all .3s ease; 
+            transition: all .3s ease;
     color: #323232;
 }
 
@@ -2307,7 +2307,7 @@ dl.toggle.time-line:before {
 }
 
 .circle-list li {
-    display: block; 
+    display: block;
     margin-bottom: 10px;
 }
 
@@ -2315,14 +2315,14 @@ dl.toggle.time-line:before {
     float: left;
     padding-right: 10px;
     content: "\f10c";
-    color: #757575; 
+    color: #757575;
     font-family: "fontawesome";
     font-size: 14px;
 }
 
 /*list half*/
 .list-half li {
-    float: left; 
+    float: left;
     width: 50%;
 }
 
@@ -2331,7 +2331,7 @@ dl.toggle.time-line:before {
 -------------------------------------------------------------------*/
 .divider {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
     width: 100%;
     margin: 50px 0;
     color: #e2e2e2;
@@ -2392,7 +2392,7 @@ dl.toggle.time-line:before {
     display: inline-block;
     width: 8px;
     height: 8px;
-    content: ""; 
+    content: "";
     border: 1px solid #e2e2e2;
     border-radius: 50%;
     background: #fff;
@@ -2405,7 +2405,7 @@ dl.toggle.time-line:before {
     display: inline-block;
     width: 8px;
     height: 8px;
-    content: ""; 
+    content: "";
     border: 1px solid #e2e2e2;
     border-radius: 50%;
     background: #fff;
@@ -2424,7 +2424,7 @@ dl.toggle.time-line:before {
 }
 
 .divider-small.text-center {
-    display: inherit; 
+    display: inherit;
     margin: 50px auto;
 }
 
@@ -2435,7 +2435,7 @@ dl.toggle.time-line:before {
 .divider i {
     position: absolute;
     top: -10px;
-    width: 30px; 
+    width: 30px;
     background: #fff;
     font-size: 18px;
 }
@@ -2449,7 +2449,7 @@ dl.toggle.time-line:before {
     color: #b4b4b4;
     border-radius: 50%;
     background: #f5f5f5;
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 30px;
 }
 
@@ -2461,7 +2461,7 @@ dl.toggle.time-line:before {
     text-align: center;
     border: 1px solid #e2e2e2;
     border-radius: 50%;
-    font-size: 15px; 
+    font-size: 15px;
     line-height: 30px;
 }
 
@@ -2478,7 +2478,7 @@ dl.toggle.time-line:before {
 
 .heading-title span,
 .heading-title-alt span {
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     color: #7e7e7e;
     /*font-family: 'Abel', sans-serif;*/
     font-size: 14px;
@@ -2486,7 +2486,7 @@ dl.toggle.time-line:before {
 
 .heading-title.dark span,
 .heading-title-alt.dark span {
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
     color: #fff;
     /*font-family: 'Abel', sans-serif;*/
     font-size: 14px;
@@ -2509,7 +2509,7 @@ dl.toggle.time-line:before {
 
 .heading-title-alt h5,
 .heading-title-alt h6 {
-    margin: 0; 
+    margin: 0;
     letter-spacing: 2px;
     font-weight: normal;
 }
@@ -2537,7 +2537,7 @@ dl.toggle.time-line:before {
 }
 
 .heading-border-bottom {
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     border-bottom: 1px solid #e2e2e2;
 }
 
@@ -2553,7 +2553,7 @@ dl.toggle.time-line:before {
 .heading-title-side-border h4,
 .heading-title-side-border h5,
 .heading-title-side-border h6 {
-    margin-bottom: 0; 
+    margin-bottom: 0;
     padding: 0 10px 0 0;
     white-space: pre;
 }
@@ -2564,7 +2564,7 @@ dl.toggle.time-line:before {
 .heading-title-side-border.text-right h4,
 .heading-title-side-border.text-right h5,
 .heading-title-side-border.text-right h6 {
-    padding: 0 0 0 10px; 
+    padding: 0 0 0 10px;
     white-space: pre;
 }
 
@@ -2575,7 +2575,7 @@ dl.toggle.time-line:before {
 }
 
 .heading-title-side-border .title-border-container {
-    position: relative; 
+    position: relative;
     display: table-cell;
     width: 100%;
     vertical-align: middle;
@@ -2583,7 +2583,7 @@ dl.toggle.time-line:before {
 
 .heading-title-side-border .title-border-container .title-border {
     position: relative;
-    top: 8px; 
+    top: 8px;
     display: block;
     width: 100%;
     border-bottom: 1px solid #e2e2e2;
@@ -2618,7 +2618,7 @@ dl.toggle.time-line:before {
 .heading-title-alt.border h5,
 .heading-title-alt.border h6 {
     display: inline-block;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     padding: 10px 20px;
     border: 1px solid #333;
 }
@@ -2651,7 +2651,7 @@ dl.toggle.time-line:before {
     width: 60px;
     height: 2px;
     margin-left: -31px;
-    content: ""; 
+    content: "";
     background: #595959;
 }
 
@@ -2659,7 +2659,7 @@ dl.toggle.time-line:before {
     display: inline-block;
     width: 60%;
     margin: 0 auto;
-    color: #7e7e7e; 
+    color: #7e7e7e;
     line-height: 25px;
 }
 
@@ -2667,7 +2667,7 @@ dl.toggle.time-line:before {
     clients
 -------------------------------------------------------------------*/
 .clients {
-    overflow: hidden; 
+    overflow: hidden;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -2688,7 +2688,7 @@ dl.toggle.time-line:before {
 .clients li img {
     display: block;
     width: 75%;
-    margin-right: auto; 
+    margin-right: auto;
     margin-left: auto;
 }
 
@@ -2762,7 +2762,7 @@ dl.toggle.time-line:before {
 .clients.plus-box li:before,
 .clients.angle-box li:after,
 .clients.angle-box li:before {
-    position: absolute; 
+    position: absolute;
     content: "";
 }
 
@@ -2821,14 +2821,14 @@ dl.toggle.time-line:before {
     bottom: 30px;
     width: 70%;
     padding: 10px 20px;
-    text-align: right; 
+    text-align: right;
     background: rgba(0, 0, 0, .7);
 }
 
 .team-member .team-intro h5,
 .team-member .team-intro.light-txt span {
     margin-bottom: 0;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
@@ -2848,7 +2848,7 @@ dl.toggle.time-line:before {
 }
 
 .t-s-link {
-    display: block; 
+    display: block;
     margin-top: 10px;
 }
 
@@ -2867,7 +2867,7 @@ dl.toggle.time-line:before {
     left: 0;
     margin: 0;
     -webkit-transition: all .3s;
-            transition: all .3s; 
+            transition: all .3s;
     opacity: 0;
     border: 20px solid rgba(0, 0, 0, .1);
     background-color: rgba(255, 255, 255, .9);
@@ -2891,7 +2891,7 @@ dl.toggle.time-line:before {
     position: absolute;
     top: 0;
     width: 100%;
-    padding: 0 20px; 
+    padding: 0 20px;
     -webkit-transition: all .3s .2s;
             transition: all .3s .2s;
     -webkit-transform: translateY(-55%);
@@ -2923,7 +2923,7 @@ dl.toggle.time-line:before {
 
 .desk h4 {
     margin-bottom: 25px;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -2939,7 +2939,7 @@ dl.toggle.time-line:before {
 .team-title {
     position: static;
     display: inline-block;
-    width: 100%; 
+    width: 100%;
     padding: 20px 0;
     letter-spacing: 2px;
 }
@@ -2951,7 +2951,7 @@ dl.toggle.time-line:before {
 }
 
 .team-title span {
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #a5a5a5;
     font-size: 12px;
@@ -2967,7 +2967,7 @@ dl.toggle.time-line:before {
     testimonial
 -------------------------------------------------------------------*/
 .testimonial {
-    overflow: hidden; 
+    overflow: hidden;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -2976,7 +2976,7 @@ dl.toggle.time-line:before {
 .testimonial li {
     position: relative;
     float: left;
-    height: 280px; 
+    height: 280px;
     padding: 40px;
 }
 
@@ -3003,7 +3003,7 @@ dl.toggle.time-line:before {
 
 .testimonial.plus-box li:after,
 .testimonial.plus-box li:before {
-    position: absolute; 
+    position: absolute;
     content: "";
 }
 
@@ -3029,7 +3029,7 @@ dl.toggle.time-line:before {
     display: inline-block;
     width: 100px;
     height: 100px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     border-radius: 50%;
 }
 
@@ -3049,7 +3049,7 @@ dl.toggle.time-line:before {
 
 .testimonial-meta {
     margin-top: 10px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #222;
     font-size: 14px;
@@ -3057,7 +3057,7 @@ dl.toggle.time-line:before {
 
 .testimonial-meta span {
     display: block;
-    color: #7f7f7f; 
+    color: #7f7f7f;
     font-size: 12px;
 }
 
@@ -3116,7 +3116,7 @@ dl.toggle.time-line:before {
 }
 
 .outer-border {
-    padding: 30px; 
+    padding: 30px;
     border: 1px solid #ececec;
 }
 
@@ -3136,7 +3136,7 @@ dl.toggle.time-line:before {
     background-image: url("../img/parallax/2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
     background-size: cover;
 }
 
@@ -3146,7 +3146,7 @@ dl.toggle.time-line:before {
 }
 
 .testimonial-alt .content {
-    position: relative; 
+    position: relative;
     display: inline-block;
     margin-bottom: 30px;
     padding: 20px;
@@ -3159,7 +3159,7 @@ dl.toggle.time-line:before {
     bottom: -7px;
     left: 25px;
     display: block;
-    width: 15px; 
+    width: 15px;
     height: 14px;
     content: "";
     -webkit-transform: rotate(45deg);
@@ -3180,7 +3180,7 @@ dl.toggle.time-line:before {
 }
 
 .testimonial-alt .testi-auth .testimonial-meta {
-    display: inline-block; 
+    display: inline-block;
     margin-top: 15px;
 }
 
@@ -3194,7 +3194,7 @@ dl.toggle.time-line:before {
 
 #testimonial-4.owl-theme .owl-controls .owl-page span {
     width: 8px;
-    height: 8px; 
+    height: 8px;
     background: #cecece;
 }
 
@@ -3226,7 +3226,7 @@ dl.toggle.time-line:before {
     text-transform: uppercase;
     border-radius: 0;
     background: #eae8e8;
-    box-shadow: none; 
+    box-shadow: none;
     font-weight: 400;
 }
 
@@ -3255,7 +3255,7 @@ dl.toggle.time-line:before {
     text-align: center;
     letter-spacing: 0;
     color: #fff;
-    border-radius: 30px; 
+    border-radius: 30px;
     background-color: rgba(0, 0, 0, .6) !important;
     line-height: 20px;
 }
@@ -3265,7 +3265,7 @@ dl.toggle.time-line:before {
     bottom: -2px;
     left: 15px;
     display: block;
-    width: 5px; 
+    width: 5px;
     height: 5px;
     content: "";
     -webkit-transform: rotate(45deg);
@@ -3281,13 +3281,13 @@ dl.toggle.time-line:before {
 }
 
 .post-parallax .massive-progress .progress-bar > span {
-    color: #222 !important; 
+    color: #222 !important;
     background-color: #a4a4a4 !important;
 }
 
 .post-parallax .massive-progress .progress-bar > span:before {
     border-color: #a4a4a4;
-    border-right: 1px solid #a4a4a4; 
+    border-right: 1px solid #a4a4a4;
     -o-border-image: none;
        border-image: none;
     background-color: #a4a4a4;
@@ -3313,7 +3313,7 @@ dl.toggle.time-line:before {
     text-transform: uppercase;
     color: #fff;
     background-color: #222;
-    box-shadow: none; 
+    box-shadow: none;
     font-size: 11px;
     line-height: 30px;
 }
@@ -3325,7 +3325,7 @@ dl.toggle.time-line:before {
 .highlight pre {
     color: #555;
     border-color: #eaeaea;
-    border-radius: 0; 
+    border-radius: 0;
     background: #fcfcfc;
 }
 
@@ -3347,7 +3347,7 @@ dl.toggle.time-line:before {
     padding: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border-radius: 0; 
+    border-radius: 0;
     font-size: 11px;
 }
 
@@ -3357,22 +3357,22 @@ dl.toggle.time-line:before {
 }
 
 .success-border {
-    color: #3c763d; 
+    color: #3c763d;
     border-color: #d6e9c6;
 }
 
 .info-border {
-    color: #31708f; 
+    color: #31708f;
     border-color: #bce8f1;
 }
 
 .warning-border {
-    color: #8a6d3b; 
+    color: #8a6d3b;
     border-color: #faebcc;
 }
 
 .danger-border {
-    color: #a94442; 
+    color: #a94442;
     border-color: #ebccd1;
 }
 
@@ -3380,7 +3380,7 @@ dl.toggle.time-line:before {
     icon list
 -------------------------------------------------------------------*/
 .icon-list {
-    padding-left: 20px; 
+    padding-left: 20px;
     list-style: none;
 }
 
@@ -3397,7 +3397,7 @@ dl.toggle.time-line:before {
 .icon-border li i {
     width: 30px;
     height: 30px;
-    text-align: center; 
+    text-align: center;
     border: 1px solid #ddd;
     line-height: 30px;
 }
@@ -3411,7 +3411,7 @@ dl.toggle.time-line:before {
 .icon-bg-box li i {
     width: 30px;
     height: 30px;
-    text-align: center; 
+    text-align: center;
     background: #ddd;
     line-height: 30px;
 }
@@ -3420,7 +3420,7 @@ dl.toggle.time-line:before {
     width: 30px;
     height: 30px;
     text-align: center;
-    color: #fff; 
+    color: #fff;
     background: #222;
     line-height: 30px;
 }
@@ -3438,7 +3438,7 @@ dl.toggle.time-line:before {
 -------------------------------------------------------------------*/
 .subscribe-box {
     display: inline-block;
-    width: 100%; 
+    width: 100%;
     padding: 40px;
 }
 
@@ -3454,7 +3454,7 @@ dl.toggle.time-line:before {
 .subscribe-box h5,
 .subscribe-box h6 {
     margin-bottom: 0;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -3485,12 +3485,12 @@ dl.toggle.time-line:before {
 }
 
 .subscribe-form input:focus {
-    border: 1px solid #222; 
+    border: 1px solid #222;
     box-shadow: none;
 }
 
 .subscribe-form .btn {
-    float: right; 
+    float: right;
     margin-right: 0;
 }
 
@@ -3511,7 +3511,7 @@ dl.toggle.time-line:before {
 .subscribe-box.text-center .subscribe-form .btn {
     display: inline-block;
     float: none;
-    margin: 0 5px; 
+    margin: 0 5px;
     border: none;
 }
 
@@ -3526,7 +3526,7 @@ dl.toggle.time-line:before {
 .subscribe-info h4 span,
 .subscribe-info h5 span,
 .subscribe-info h6 span {
-    display: inline; 
+    display: inline;
     margin-top: 0;
 }
 
@@ -3554,7 +3554,7 @@ dl.toggle.time-line:before {
 }
 
 .text-center .subscribe-info span {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -3584,7 +3584,7 @@ dl.toggle.time-line:before {
 .timeline {
     position: relative;
     display: table;
-    width: 100%; 
+    width: 100%;
     table-layout: fixed;
     border-spacing: 0;
     border-collapse: collapse;
@@ -3603,7 +3603,7 @@ dl.toggle.time-line:before {
 
 .timeline:before {
     position: absolute;
-    z-index: 0; 
+    z-index: 0;
     top: 30px;
     bottom: 0;
     left: 50%;
@@ -3615,7 +3615,7 @@ dl.toggle.time-line:before {
 h3.timeline-title {
     margin: 0;
     margin: 0 0 5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #c8ccd7;
     font-size: 20px;
     font-weight: 400;
@@ -3628,26 +3628,26 @@ h3.timeline-title {
 .timeline-item:before,
 .timeline-item.alt:after {
     display: block;
-    width: 50%; 
+    width: 50%;
     content: "";
 }
 
 .timeline-item {
     display: table-row;
     display: inline-table;
-    width: 100%; 
+    width: 100%;
     margin-bottom: 50px;
 }
 
 .timeline-desk {
-    position: relative; 
+    position: relative;
     display: table-cell;
     width: 50%;
     vertical-align: top;
 }
 
 .timeline-desk h1 {
-    margin: 0 0 5px; 
+    margin: 0 0 5px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -3656,14 +3656,14 @@ h3.timeline-title {
     display: block;
     margin-left: 45px;
     text-align: left;
-    border-radius: 0; 
+    border-radius: 0;
     background: none;
     box-shadow: none;
 }
 
 .timeline .timeline-icon {
     position: absolute;
-    top: 5px; 
+    top: 5px;
     left: -35px;
 }
 
@@ -3676,7 +3676,7 @@ h3.timeline-title {
 }
 
 .timeline .timeline-icon {
-    border: 5px solid #fff; 
+    border: 5px solid #fff;
     background: #222;
 }
 
@@ -3692,7 +3692,7 @@ h3.timeline-title {
     color: #fff;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    font-size: 30px; 
+    font-size: 30px;
     line-height: 65px;
 }
 
@@ -3701,12 +3701,12 @@ h3.timeline-title {
 }
 
 .timeline-item.alt .timeline-icon {
-    right: -35px; 
+    right: -35px;
     left: auto;
 }
 
 .timeline .time-icon:before {
-    margin-top: 5px; 
+    margin-top: 5px;
     font-size: 16px;
 }
 
@@ -3714,7 +3714,7 @@ h3.timeline-title {
     position: absolute;
     top: 30px;
     left: -210px;
-    display: none; 
+    display: none;
     width: 150px;
     text-align: right;
 }
@@ -3722,13 +3722,13 @@ h3.timeline-title {
 .timeline-item.alt .timeline-date {
     right: -210px;
     left: auto;
-    display: none; 
+    display: none;
     text-align: left;
 }
 
 .timeline-desk h5 span {
     display: block;
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
     color: #999;
     font-size: 12px;
 }
@@ -3740,13 +3740,13 @@ h3.timeline-title {
 .timeline-item:before,
 .timeline-item.alt:after {
     display: block;
-    width: 50%; 
+    width: 50%;
     content: "";
 }
 
 .timeline-desk p {
     margin-bottom: 0;
-    color: #999; 
+    color: #999;
     font-size: 14px;
 }
 
@@ -3759,28 +3759,28 @@ h3.timeline-title {
 }
 
 .timeline-item.alt .timeline-desk .album {
-    float: right; 
+    float: right;
     margin-top: 20px;
 }
 
 .timeline-desk .album a {
-    float: left; 
+    float: left;
     margin-right: 5px;
 }
 
 .timeline-item.alt .timeline-desk .album a {
-    float: right; 
+    float: right;
     margin-left: 5px;
 }
 
 .timeline-desk .notification {
     margin-top: 20px;
-    padding: 8px; 
+    padding: 8px;
     background: none repeat scroll 0 0 #fff;
 }
 
 .timeline-item.alt .panel {
-    margin-right: 45px; 
+    margin-right: 45px;
     margin-left: 0;
 }
 
@@ -3792,7 +3792,7 @@ h3.timeline-title {
 /*----*/
 .timeline.dark:before {
     position: absolute;
-    z-index: 0; 
+    z-index: 0;
     top: 30px;
     bottom: 0;
     left: 50%;
@@ -3804,7 +3804,7 @@ h3.timeline-title {
 .timeline.dark h3.timeline-title {
     margin: 0;
     margin: 0 0 5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #333;
     font-size: 20px;
     font-weight: 400;
@@ -3819,7 +3819,7 @@ h3.timeline-title {
 }
 
 .timeline.dark .timeline-icon {
-    border: 5px solid #000; 
+    border: 5px solid #000;
     background: #fff;
 }
 
@@ -3840,31 +3840,31 @@ h3.timeline-title {
 -------------------------------------------------------------------*/
 .price-col {
     padding: 50px;
-    text-align: center; 
+    text-align: center;
     border: 1px solid #e8e8e8;
     background: #fff;
 }
 
 .price-col.feature {
-    border: 1px solid #222; 
+    border: 1px solid #222;
     background: #222;
 }
 
 .price-col h1 {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 16px;
 }
 
 .price-col .p-value {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     padding: 25px 0;
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
 }
 
 .price-col.feature .p-value {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     padding: 25px 0;
     border-top: 1px solid rgba(255, 255, 255, .2);
     border-bottom: 1px solid rgba(255, 255, 255, .2);
@@ -3876,17 +3876,17 @@ h3.timeline-title {
 }
 
 .price-col .dollar span {
-    margin-left: -10px; 
+    margin-left: -10px;
     font-size: 16px;
 }
 
 .price-col .duration {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 12px;
 }
 
 .price-col ul {
-    display: block; 
+    display: block;
     margin-bottom: 40px;
     padding: 0;
     list-style: none;
@@ -3920,7 +3920,7 @@ h3.timeline-title {
 
 .price-col.feature .p-btn,
 .price-col.feature .p-btn:hover {
-    color: #222; 
+    color: #222;
     background: #fff;
 }
 
@@ -4119,7 +4119,7 @@ a.show-detail {
 }
 
 a.show-detail:after {
-    padding-left: 10px; 
+    padding-left: 10px;
     content: "\f178";
     font-family: "FontAwesome";
 }
@@ -4129,7 +4129,7 @@ a.show-detail:after {
 }
 
 .career-details-info {
-    z-index: 1; 
+    z-index: 1;
     padding: 30px 0 0 0;
     background: #fff;
 }
@@ -4141,20 +4141,20 @@ a.show-detail:after {
 }
 
 .career-details-info .c-list-row {
-    display: block; 
+    display: block;
     margin-bottom: 30px;
 }
 
 .career-details-info .c-list-row label {
     float: left;
     /*font-family: 'Abel', sans-serif;*/
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .career-details-info .c-list-row .info {
     padding-left: 100px;
-    color: #7e7e7e; 
+    color: #7e7e7e;
     font-size: 14px;
 }
 
@@ -4164,13 +4164,13 @@ a.show-detail:after {
 
 .career-details-info .c-list-row ul li {
     padding: 0;
-    color: #7e7e7e; 
+    color: #7e7e7e;
     font-family: "Lato", sans-serif;
     font-size: 14px;
 }
 
 .career-form .form-control {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     border: 1px solid #e4e4e4;
     box-shadow: none;
 }
@@ -4216,7 +4216,7 @@ a.show-detail:after {
 #portfolio-carousel.owl-theme .owl-controls {
     position: absolute;
     top: -100px;
-    right: 0; 
+    right: 0;
     margin-top: 10px;
     text-align: center;
 }
@@ -4224,14 +4224,14 @@ a.show-detail:after {
 #portfolio-carousel-alt.owl-theme .owl-controls {
     position: absolute;
     bottom: 86px;
-    left: -100px; 
+    left: -100px;
     margin-top: 10px;
     text-align: center;
 }
 
 #portfolio-carousel.owl-theme .owl-controls .owl-buttons div,
 #portfolio-carousel-alt.owl-theme .owl-controls .owl-buttons div {
-    padding: 8px 16px; 
+    padding: 8px 16px;
     border-radius: 0;
     background: #e5e5e5;
 }
@@ -4288,7 +4288,7 @@ a.show-detail:after {
 }
 
 .carousel.slide .carousel-control {
-    z-index: 90; 
+    z-index: 90;
     width: 50%;
 }
 
@@ -4319,7 +4319,7 @@ a.show-detail:after {
 /**/
 .carousel-fade .carousel-inner .item {
     -webkit-transition-property: opacity;
-            transition-property: opacity; 
+            transition-property: opacity;
     opacity: 0;
 }
 
@@ -4329,7 +4329,7 @@ a.show-detail:after {
 
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
-    z-index: 1; 
+    z-index: 1;
     left: 0;
     opacity: 0;
 }
@@ -4347,20 +4347,20 @@ a.show-detail:after {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
         -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0); 
+                transform: translate3d(0, 0, 0);
         opacity: 0;
     }
     .carousel-fade .carousel-inner > .item.prev,
     .carousel-fade .carousel-inner > .item.active.left {
         -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0); 
+                transform: translate3d(0, 0, 0);
         opacity: 0;
     }
     .carousel-fade .carousel-inner > .item.next.left,
     .carousel-fade .carousel-inner > .item.prev.right,
     .carousel-fade .carousel-inner > .item.active {
         -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0); 
+                transform: translate3d(0, 0, 0);
         opacity: 1;
     }
 }
@@ -4369,19 +4369,19 @@ a.show-detail:after {
 .side-object .object {
     position: relative;
     width: 30%;
-    height: 400px; 
+    height: 400px;
     margin-top: 100px;
 }
 
 .side-object .object img {
     position: absolute;
-    bottom: 0; 
+    bottom: 0;
     left: 0;
 }
 
 .side-object .content {
     width: 70%;
-    padding: 200px 0 0 100px; 
+    padding: 200px 0 0 100px;
     text-align: left;
 }
 
@@ -4392,7 +4392,7 @@ a.show-detail:after {
 
 #carousel-object .owl-controls {
     position: absolute;
-    right: 0; 
+    right: 0;
     bottom: 30px;
 }
 
@@ -4411,7 +4411,7 @@ a.show-detail:after {
 .slider-full-width img,
 .slider-boxed img {
     display: block;
-    overflow: hidden; 
+    overflow: hidden;
     width: 100%;
     height: auto;
 }
@@ -4436,7 +4436,7 @@ a.show-detail:after {
 }
 
 #owl-slider .owl-pagination {
-    position: relative; 
+    position: relative;
     bottom: 50px;
 }
 
@@ -4446,13 +4446,13 @@ a.show-detail:after {
     height: 5px;
     margin: 5px 7px;
     opacity: .5;
-    border-radius: 0; 
+    border-radius: 0;
 
     filter: Alpha(Opacity=50);
 }
 
 #owl-slider.owl-theme .owl-controls .owl-page.active span {
-    z-index: 1200; 
+    z-index: 1200;
     opacity: 1;
 
     filter: Alpha(Opacity=100);
@@ -4470,7 +4470,7 @@ a.show-detail:after {
     zoom: 1;
     margin: 5px;
     padding: 5px 15px;
-    opacity: .5; 
+    opacity: .5;
     color: #fff;
     border-radius: 0;
     background: #000;
@@ -4497,7 +4497,7 @@ a.show-detail:after {
     display: inline-block;
     width: 150px;
     height: 150px;
-    margin: 0 20px; 
+    margin: 0 20px;
     padding-top: 42px;
     text-align: center;
 }
@@ -4541,7 +4541,7 @@ a.show-detail:after {
 
 .count-down .c-title,
 .count-down-alt .c-title {
-    letter-spacing: 3px; 
+    letter-spacing: 3px;
     font-size: 14px;
 }
 
@@ -4559,7 +4559,7 @@ a.show-detail:after {
     background-image: url("../img/parallax/5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
 }
 
@@ -4569,7 +4569,7 @@ a.show-detail:after {
 
 .count-icon {
     position: absolute;
-    top: 50px; 
+    top: 50px;
     right: 0;
 }
 

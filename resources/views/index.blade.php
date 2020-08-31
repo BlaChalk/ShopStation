@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/shortcodes.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/default-theme.css">
+    <link rel="stylesheet" href="css/frontend.css">
     <!-- endinject -->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -49,7 +50,7 @@
         <!--header start-->
         <header class="l-header">
 
-            <div class="l-navbar l-navbar_expand l-navbar_t-dark-trans js-navbar-sticky">
+            <div id="header" class="l-navbar l-navbar_expand l-navbar_t-dark-trans js-navbar-sticky">
                 <div class="container-fluid">
                     <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
 
@@ -1057,13 +1058,57 @@
         <section class="body-content">
 
             <!--feature-->
-            <div class="page-content">
+            <div class="page-contentz">
                 <div class="container">
                     <div class="row ">
 
                         <div class="heading-title text-center">
-                            <h3 class="text-uppercase"> We believe to design the impossible</h3>
+                            <h3 class="text-uppercase"> Life is just beginning.</h3>
                             <p class="half-txt p-top-30">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
+                                <div class="productIcon">
+                                    <img src="images/product/pro_img01.jpg" alt="">
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>站立式輪椅</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
+                                <div class="icon">
+                                    <i class="icon-layers"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>premium sliders</h4>
+                                </div>
+                                <div class="desc">
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
+                                <div class="icon">
+                                    <i class="icon-puzzle"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>massive shortcode</h4>
+                                </div>
+                                <div class="desc">
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+
+                        <div class="heading-title text-center">
+                            <h3 class="text-uppercase"></h3>
                         </div>
 
                         <div class="col-md-4">
@@ -1544,6 +1589,7 @@
     <script src="assets/vendor/visible/visible.js"></script>
     <script src="assets/vendor/wow/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script src="js/frontend.js"></script>
     <!-- endinject -->
 </body>
 
