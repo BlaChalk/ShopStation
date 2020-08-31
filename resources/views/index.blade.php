@@ -1068,7 +1068,7 @@
                         </div>
 
                         <div class="col-md-4">
-                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
+                            <div class="featured-item feature-bg-box gray-bg text-center inline-block radius-less blue-bg">
                                 <div class="productIcon">
                                     <img src="images/product/pro_img01.jpg" alt="">
                                 </div>
@@ -1078,28 +1078,22 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
-                                <div class="icon">
-                                    <i class="icon-layers"></i>
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                                <div class="productIcon">
+                                    <img src="images/product/pro_img01.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>premium sliders</h4>
-                                </div>
-                                <div class="desc">
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                    <h4>站立式輪椅</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
-                                <div class="icon">
-                                    <i class="icon-puzzle"></i>
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                                <div class="productIcon">
+                                    <img src="images/product/pro_img01.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>massive shortcode</h4>
-                                </div>
-                                <div class="desc">
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                    <h4>站立式輪椅</h4>
                                 </div>
                             </div>
                         </div>
@@ -1112,41 +1106,32 @@
                         </div>
 
                         <div class="col-md-4">
-                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
-                                <div class="icon">
-                                    <i class="icon-mobile"></i>
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                                <div class="productIcon">
+                                    <img src="images/product/pro_img01.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>Fully responsive</h4>
-                                </div>
-                                <div class="desc">
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                    <h4>站立式輪椅</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
-                                <div class="icon">
-                                    <i class="icon-layers"></i>
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                                <div class="productIcon">
+                                    <img src="images/product/pro_img01.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>premium sliders</h4>
-                                </div>
-                                <div class="desc">
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                    <h4>站立式輪椅</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
-                                <div class="icon">
-                                    <i class="icon-puzzle"></i>
+                            <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                                <div class="productIcon">
+                                    <img src="images/product/pro_img01.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>massive shortcode</h4>
-                                </div>
-                                <div class="desc">
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                                    <h4>站立式輪椅</h4>
                                 </div>
                             </div>
                         </div>
