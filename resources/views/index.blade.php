@@ -8,7 +8,7 @@
     <meta name="author" content="Mosaddek">
 
     <!--favicon icon-->
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
 
     <title>康而富時尚輔具-購物網</title>
 
@@ -55,8 +55,9 @@
                     <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
 
                         <!--logo start-->
-                        <a href="index.html" class="logo-brand">
-                            <img class="retina" src="assets/img/logo-dark.png" alt="Massive">
+                        <a href="/" class="logo-brand">
+                            <img src="images/head/logo-dark.png" alt="Comfort">
+                            {{-- <img class="retina" src="images/favicon.jpg" alt="Massive"> --}}
                         </a>
                         <!--logo end-->
 
@@ -1040,7 +1041,7 @@
 
         <!--hero section-->
         <div class="vertical-align text-center">
-            <img src="/images/banner/B201602190012.jpg" alt="">
+            <img id="banner" src="/images/banner/B201602190012.jpg" alt="">
             <div class="container-mid">
                 <div class="container">
                     <div class="row">
@@ -1058,19 +1059,19 @@
         <section class="body-content">
 
             <!--feature-->
-            <div class="page-contentz">
+            <div class="page-content">
                 <div class="container">
                     <div class="row ">
 
                         <div class="heading-title text-center">
                             <h3 class="text-uppercase"> Life is just beginning.</h3>
-                            <p class="half-txt p-top-30">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
+                            <p class="half-txt p-top-30">本公司現有以下產品可供購買使用。</p>
                         </div>
 
                         <div class="col-md-4">
                             <div class="featured-item feature-bg-box gray-bg text-center inline-block radius-less blue-bg">
                                 <div class="productIcon">
-                                    <img src="images/product/pro_img01.jpg" alt="">
+                                    <img src="images/product/hot_pro_01.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
                                     <h4>站立式輪椅</h4>
@@ -1080,20 +1081,20 @@
                         <div class="col-md-4">
                             <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
                                 <div class="productIcon">
-                                    <img src="images/product/pro_img01.jpg" alt="">
+                                    <img src="images/product/hot_pro_02.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>站立式輪椅</h4>
+                                    <h4>電動輪椅</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
                                 <div class="productIcon">
-                                    <img src="images/product/pro_img01.jpg" alt="">
+                                    <img src="images/product/hot_pro_03.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>站立式輪椅</h4>
+                                    <h4>電動代步車</h4>
                                 </div>
                             </div>
                         </div>
@@ -1108,30 +1109,30 @@
                         <div class="col-md-4">
                             <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
                                 <div class="productIcon">
-                                    <img src="images/product/pro_img01.jpg" alt="">
+                                    <img src="images/product/hot_pro_04.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>站立式輪椅</h4>
+                                    <h4>手動輪椅</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
                                 <div class="productIcon">
-                                    <img src="images/product/pro_img01.jpg" alt="">
+                                    <img src="images/product/hot_pro_05.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>站立式輪椅</h4>
+                                    <h4>助行器</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
                                 <div class="productIcon">
-                                    <img src="images/product/pro_img01.jpg" alt="">
+                                    <img src="images/product/hot_pro_06.jpg" alt="">
                                 </div>
                                 <div class="title text-uppercase">
-                                    <h4>站立式輪椅</h4>
+                                    <h4>洗澡便器椅</h4>
                                 </div>
                             </div>
                         </div>
@@ -1148,13 +1149,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-7">
-                            <p class="theme-color txt-xl">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis etharumas thir labori omnis minima.</p>
-                            <p class="light-txt">Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
+                            <p class="theme-color txt-xl">公司創立沿革：</p>
+                            <p class="light-txt">龍熒股份有限公司成立於一九七八年，秉持「愛心」、「品質」、「創新」的經營理念，卅多年來多次榮獲台灣精品獎、優良設計獎，公司並榮獲第一屆小巨人獎。以ＣＯＭＦＯＲＴ（康而富時尚輔具）品牌行銷五大洲，已經成為醫療復健器材界中的高品質代表。</p>
+                            <p class="theme-color txt-xl">品牌簡介：</p>
+                            <p class="light-txt">2003年ＣＯＭＦＯＲＴ（康而富時尚輔具），本著使用者至上的理念，打造舒適化、人性化、自主化、科技化的輔具，更以”時尚”輔具為概念，讓所有使用者更具自信與尊嚴。此外，為落實精耕醫材的目標，以使用者需求為前提，積極從事高品質,輕量化的新型輪椅、站立式輪椅、運動輪椅及電動代步車的設計開發。康而富的產品擁有多國認證,有歐盟的CE,美國的FDA,德國的TUV等,行銷全球,深獲肯定，目標要成為全球行動輔具業界中的第一品牌。</p>
                             <div>
-                                <a href="#" class="btn btn-medium btn-light-border   btn-transparent "> Purchase Now</a>
+                                <a href="#" class="btn btn-medium btn-light-border   btn-transparent "> 品牌故事</a>
                             </div>
                         </div>
-                        <div class="col-md-5">
+                        {{-- <div class="col-md-5">
                             <!-- progress bar start -->
                             <div class="progress  massive-progress-alt progress-light-trans-bg">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
@@ -1194,7 +1197,7 @@
                                 </div>
                             </div>
                             <!-- progress bar end -->
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 

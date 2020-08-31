@@ -363,8 +363,8 @@
 -----------------------------------------------------------------*/
 .feature-bg-box {
     position: relative;
-    margin-bottom: 100px;
-    padding: 30px 0px;
+    margin-bottom: 10px;
+    padding: 30px;
     border-radius: 4px;
 }
 
@@ -414,10 +414,10 @@
     padding: 10px 10px;
 }
 
-.featured-box .one-third .featured-item {
+/* .featured-box .one-third .featured-item {
     min-height: 360px;
     padding: 15% 20%;
-}
+} */
 
 .featured-box .one-third .featured-item,
 .featured-box .one-third .featured-item h4,
