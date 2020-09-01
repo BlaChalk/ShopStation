@@ -13,6 +13,8 @@
 
         @yield('hero')
 
+        @yield('page-title')
+
         @yield('content')
 
         @yield('footer')

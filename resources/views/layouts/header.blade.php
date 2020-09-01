@@ -14,7 +14,7 @@
                 <!--mega menu start-->
                 <ul class="menuzord-menu menuzord-right c-nav_s-standard">
                     <li class="active"><a href="#">Home</a>
-                        <ul class="dropdown">
+                        {{-- <ul class="dropdown">
                             <li><a href="#">Home General</a>
                                 <ul class="dropdown">
                                     <li><a href="mp-index-general-1.html">General 1</a>
@@ -168,10 +168,10 @@
                             </li>
                             <li><a href="mp-index-coming-soon.html">Home Coming Soon</a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </li>
 
-                    <li class=""><a href="javascript:void(0)">Pages</a>
+                    {{-- <li class=""><a href="javascript:void(0)">Pages</a>
                         <div class="megamenu">
                             <div class="megamenu-row">
                                 <div class="col3">
@@ -247,9 +247,9 @@
 
                             </div>
                         </div>
-                    </li>
+                    </li> --}}
 
-                    <li class=""><a href="#">Features</a>
+                    <li class=""><a href="/product">Product</a>
                         <ul class="dropdown">
                             <li><a href="#">Sliders</a>
                                 <ul class="dropdown">
