@@ -511,7 +511,3 @@
     </footer>
     <!--footer 1 end-->
 @endsection
-
-@section('script')
-    <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyBvoxNVNChCmTJqmmLFKEu_QyakDi5wOds"></script>
-@endsection
