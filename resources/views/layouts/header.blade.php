@@ -13,7 +13,7 @@
 
                 <!--mega menu start-->
                 <ul class="menuzord-menu menuzord-right c-nav_s-standard">
-                    <li class="active"><a href="#">Home</a>
+                    <li class="@if($page=='index')active @endif"><a href="/">Home</a>
                         {{-- <ul class="dropdown">
                             <li><a href="#">Home General</a>
                                 <ul class="dropdown">
@@ -249,67 +249,13 @@
                         </div>
                     </li> --}}
 
-                    <li class=""><a href="/product">Product</a>
+                    <li class="@if($page=='product')active @endif"><a href="/product">Product</a>
                         <ul class="dropdown">
-                            <li><a href="#">Sliders</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Slider Revolution</a>
-                                        <ul class="dropdown">
-                                            <li><a href="slider-revolution-fullscreen.html">Full Screen</a>
-                                            </li>
-                                            <li><a href="slider-revolution-fullwidth.html">Full Width</a>
-                                            </li>
-                                            <li><a href="slider-revolution-kenburns.html">Kenburns</a>
-                                            </li>
-                                            <li><a href="slider-revolution-video-bg.html">Video Banner</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Slider flex</a>
-                                        <ul class="dropdown">
-                                            <li><a href="slider-flex-fullwidth.html">Full Width</a>
-                                            </li>
-                                            <li><a href="slider-flex-boxed.html">Boxed</a>
-                                            </li>
-                                            <li><a href="slider-flex-boxed-thumb.html">Thumbnail Box</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Slider Owl</a>
-                                        <ul class="dropdown">
-                                            <li><a href="slider-owl-fullwidth.html">Full Width</a>
-                                            </li>
-                                            <li><a href="slider-owl-boxed.html">Boxed</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Parallax</a>
-                                        <ul class="dropdown">
-                                            <li><a href="static-parallax.html">Full Screen</a>
-                                            </li>
-                                            <li><a href="static-parallax-2.html">Full Screen 2</a>
-                                            </li>
-                                            <li><a href="static-parallax-short.html">Full Width</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="slider-bs.html">Slider BS</a>
-                                    </li>
-                                    <li><a href="slider-elastic.html">Slider Elastic</a>
-                                    </li>
-                                    <li><a href="slider-typist-blink.html">Slider Rotate Text 1</a>
-                                    </li>
-                                    <li><a href="slider-typist-mark.html">Slider Rotate Text 2</a>
-                                    </li>
-                                    <li><a href="static-html5-video.html">HTML5 Video</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Navbar</a>
+                            <li><a href="#">站立式輪椅</a>
                                 <ul class="dropdown">
                                     <li>
-                                        <a href="#">Color Variants</a>
-                                        <ul class="dropdown">
+                                        <a href="#">電動站立式輪椅</a>
+                                        {{-- <ul class="dropdown">
                                             <li><a href="navbar-light.html">Light / White</a>
                                             </li>
                                             <li><a href="navbar-dark.html">Dark / Black</a>
@@ -320,11 +266,11 @@
                                             </li>
                                             <li><a href="navbar-semi-trans.html">Semi Transparent</a>
                                             </li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
                                     <li>
-                                        <a href="#">Center Styles</a>
-                                        <ul class="dropdown">
+                                        <a href="#">半電動站立式輪椅</a>
+                                        {{-- <ul class="dropdown">
                                             <li><a href="navbar-center.html">Light / White</a>
                                             </li>
                                             <li><a href="navbar-center-dark.html">Dark / Black</a>
@@ -335,119 +281,79 @@
                                             </li>
                                             <li><a href="navbar-center-semi-trans.html">Semi Transparent</a>
                                             </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Floating Styles</a>
-                                        <ul class="dropdown">
-                                            <li><a href="navbar-floating.html">Light / White</a>
-                                            </li>
-                                            <li><a href="navbar-floating-dark.html">Dark / Black</a>
-                                            </li>
-                                            <li><a href="navbar-floating-semi-trans.html">Semi Transparent</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Left Styles</a>
-                                        <ul class="dropdown">
-                                            <li><a href="navbar-left.html">Light / White</a>
-                                            </li>
-                                            <li><a href="navbar-left-dark.html">Dark / Black</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">Other Styles</a>
-                                        <ul class="dropdown">
-                                            <li><a href="navbar-expand.html">Expand</a>
-                                            </li>
-                                            <li><a href="navbar-compact.html">Compact</a>
-                                            </li>
-                                            <li><a href="navbar-wide.html">Wide</a>
-                                            </li>
-                                            <li><a href="navbar-sticky-off.html">Sticky Off</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Link Styles</a>
-                                        <ul class="dropdown">
-                                            <li><a href="menu-standard.html">Standard</a>
-                                            </li>
-                                            <li><a href="menu-bg.html">Background / Bg</a>
-                                            </li>
-                                            <li><a href="menu-outline.html">Outline</a>
-                                            </li>
-                                            <li><a href="menu-underline.html">Underline</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Special Menus</a>
-                                        <ul class="dropdown">
-                                            <li><a href="menu-push.html">Push</a>
-                                            </li>
-                                            <li><a href="menu-dotted.html">Dotted</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Topbar</a>
-                                        <ul class="dropdown">
-                                            <li><a href="menu-top-bar.html">Menu Topbar 1</a>
-                                            </li>
-                                            <li><a href="menu-top-bar-alt.html">Menu Topbar 2</a>
-                                            </li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#">Page Title</a>
+                            <li><a href="#">電動輪椅</a>
                                 <ul class="dropdown">
-                                    <li><a href="page-title.html"> Default Title</a>
+                                    <li><a href="page-title.html"> 戶外型電動輪椅</a>
                                     </li>
-                                    <li><a href="page-title-background.html"> Background Title</a>
+                                    <li><a href="page-title-background.html"> 折疊型電動輪椅</a>
                                     </li>
-                                    <li><a href="page-title-bg-transparent-header.html"> Bg Transparent Title</a>
+                                    <li><a href="page-title-bg-transparent-header.html"> 躺式電動輪椅</a>
                                     </li>
-                                    <li><a href="page-title-parallax-transparent-header.html"> Parallax Transparent</a>
-                                    </li>
-                                    <li><a href="page-title-nobg.html"> No Background</a>
-                                    </li>
-                                    <li><a href="page-title-pattern.html"> Pattern Title</a>
-                                    </li>
-                                    <li><a href="page-title-center.html"> Center Align</a>
-                                    </li>
-                                    <li><a href="page-title-right.html"> Right Align</a>
-                                    </li>
-                                    <li><a href="page-title-dark.html"> Dark Title</a>
-                                    </li>
-                                    <li><a href="page-title-mini.html"> Mini Title</a>
+                                    <li><a href="page-title-parallax-transparent-header.html"> 動力推進器</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#">Footer</a>
+                            <li><a href="#">電動代步車</a>
                                 <ul class="dropdown">
-                                    <li><a href="footer1.html"> Footer Layout 1</a>
+                                    <li><a href="footer1.html"> 大型電動代步車</a>
                                     </li>
-                                    <li><a href="footer2.html"> Footer Layout 2</a>
-                                    </li>
-                                    <li><a href="footer3.html"> Footer Layout 3</a>
-                                    </li>
-                                    <li><a href="footer4.html"> Footer Layout 4</a>
-                                    </li>
-                                    <li><a href="footer5.html"> Footer Layout 5</a>
-                                    </li>
-                                    <li><a href="footer6.html"> Footer Layout 6</a>
+                                    <li><a href="footer2.html"> 中型電動代步車</a>
                                     </li>
                                 </ul>
                             </li>
-
-                            <li><a href="#">Gallery</a>
+                            <li><a href="#">手動輪椅</a>
                                 <ul class="dropdown">
-                                    <li><a href="gallery-3.html"> Default Gallery</a>
+                                    <li><a href="gallery-3.html"> 鐵輪椅</a>
                                     </li>
-                                    <li><a href="gallery-masonry.html"> Masonry Gallery 1</a>
+                                    <li><a href="gallery-masonry.html"> 經典款輪椅</a>
                                     </li>
-                                    <li><a href="gallery-masonry-2.html"> Masonry Gallery 2</a>
+                                    <li><a href="gallery-masonry-2.html"> 運輸椅</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 躺式輪椅</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 高活動型輪椅</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> Tilt and reclining wheelchair</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 童車系列</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">助行器</a>
+                                <ul class="dropdown">
+                                    <li><a href="gallery-3.html"> 拐杖</a>
+                                    </li>
+                                    <li><a href="gallery-masonry.html"> 助行器</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 帶輪助行器</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">洗澡便器椅</a>
+                                <ul class="dropdown">
+                                    <li><a href="gallery-3.html"> 便器椅</a>
+                                    </li>
+                                    <li><a href="gallery-masonry.html"> Shower Wheelchair</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 擺位洗澡椅</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">配件</a>
+                                <ul class="dropdown">
+                                    <li><a href="gallery-3.html"> 衛浴安全系列</a>
+                                    </li>
+                                    <li><a href="gallery-masonry.html"> 可攜式鋁梯</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 輪椅餐桌</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> SUNRISE 減壓座墊</a>
+                                    </li>
+                                    <li><a href="gallery-masonry-2.html"> 其他配件</a>
                                     </li>
                                 </ul>
                             </li>

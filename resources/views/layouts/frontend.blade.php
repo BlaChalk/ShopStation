@@ -9,7 +9,7 @@
     @include('layouts.preloader')
 
     <div class="wrapper">
-        @include('layouts.header')
+        @include('layouts.header', ['page'=>(isset($page))? $page : NULL])
 
         @yield('hero')
 

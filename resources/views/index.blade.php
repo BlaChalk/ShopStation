@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend', [$page='index'])
 
 @section('hero')
     <!--hero section-->

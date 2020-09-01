@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.frontend', [$page='product'])
 
 @section('page-title')
     <!--page title start-->
