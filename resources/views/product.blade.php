@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="text-uppercase">Blog Listing</h4>
+                    <h4 class="text-uppercase">產品列表</h4>
                     <ol class="breadcrumb">
                         <li><a href="#">Home</a>
                         </li>
@@ -23,348 +23,403 @@
 
 @section('content')
 <!--body content start-->
-<section class="body-content ">
-
-    <div class="page-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <!--classic image post-->
-                    <div class="blog-classic">
-                        <div class="date">
-                            24
-                            <span>MAR 2015</span>
-                        </div>
-                        <div class="blog-post">
-                            <div class="full-width">
-                                <img src="assets/img/post/p12.jpg" alt="" />
+<main>
+    {{-- <!-- shop-area --> --}}
+    <div class="shop-area gray-bg pt-100 pb-100">
+        <div class="custom-container-two">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8 order-2 order-lg-0">
+                    <aside class="shop-sidebar">
+                        <div class="widget shop-widget mb-30">
+                            <div class="shop-widget-title">
+                                <h6 class="title white-bg">Product Categories</h6>
                             </div>
-                            <h4 class="text-uppercase"><a href="blog-single.html">standard blog post with photo</a></h4>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-user"></i>posted by <a href="#">admin</a>
+                        <!-- Main Menu -->
+                            <ul class="nav navbar-nav">
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed inline-block" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv01"><img src="/images/sub/sub_pro_01.jpg">站立式輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv01" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=138&amp;cid=168">電動站立式輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=138&amp;cid=167">半電動站立式輪椅</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
-                                <li><i class="fa fa-folder-open"></i>  <a href="#">lifestyle</a>, <a href="#">travel</a>, <a href="#">fashion</a>
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv02"><img src="/images/sub/sub_pro_02.jpg">電動輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv02" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=176">戶外型電動輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=175">折疊式電動輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=205">躺式電動輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=180">動力推進器</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
-                                <li><i class="fa fa-comments"></i>  <a href="#">4 comments</a>
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv03"><img src="/images/sub/sub_pro_03.jpg">電動代步車<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv03" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184">大型電動代步車</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=185">中型電動代步車</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv04"><img src="/images/sub/sub_pro_04.jpg">手動輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv04" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=199">鐵輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=187">經典款輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=201">運輸椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=303">躺式輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=188">高活動型輪椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=306">Tilt and reclining wheelchair</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=204">童車系列</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv05"><img src="/images/sub/sub_pro_05.jpg">助行器<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv05" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=200&amp;cid=305">拐杖</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=200&amp;cid=207">助行器</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=200&amp;cid=206">帶輪助行器</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv06"><img src="/images/sub/sub_pro_06.jpg">洗澡便器椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv06" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=202&amp;cid=293">便器椅</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=202&amp;cid=296">Shower Wheelchair</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=202&amp;cid=292">擺位洗澡椅</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="panel panel-default" id="dropdown">
+                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv07"><img src="/images/sub/sub_pro_07.jpg">配件<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <div class="panel-collapse collapse" id="dropdown-lv07" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <ul class="nav navbar-nav">
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=203">衛浴安全系列</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=210">可攜式鋁梯</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=208">輪椅餐桌</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=289">SUNRISE 減壓座墊</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=297">其他配件</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
-                            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a href="blog-single.html" class="btn btn-small btn-dark-solid  "> Continue Reading</a>
-                        </div>
-                    </div>
-                    <!--classic image post-->
+                            <!-- Main Menu end -->
 
-                    <!--classic gallery post-->
-                    <div class="blog-classic">
-                        <div class="date">
-                            20
-                            <span>MAR 2015</span>
                         </div>
-                        <div class="blog-post">
-                            <div class="full-width ">
-                                <div class="post-slider post-img text-center relative">
-                                    <ul class="slides">
-                                        <li>
-                                            <a href="javascript:;" title="Freshness Photo">
-                                                <img src="assets/img/post/p3.jpg" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:;" title="Awesome Lightbox">
-                                                <img src="assets/img/post/p2.jpg" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:;" title="Massive UI Components">
-                                                <img src="assets/img/post/p1.jpg" alt="">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                        <div class="widget">
+                            <div class="shop-widget-banner special-offer-banner">
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html"><img alt="" hidden="" src="./Venam%20-%20eCommerce%20HTML5%20Template_files/sidebar_banner_ad.jpg" style="display: none !important;"></a>
                             </div>
-                            <h4 class="text-uppercase"><a href="blog-single.html">Gallery Image Post</a></h4>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-user"></i>posted by <a href="#">admin</a>
-                                </li>
-                                <li><i class="fa fa-folder-open"></i>  <a href="#">lifestyle</a>, <a href="#">travel</a>, <a href="#">fashion</a>
-                                </li>
-                                <li><i class="fa fa-comments"></i>  <a href="#">4 comments</a>
-                                </li>
-                            </ul>
-                            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a href="blog-single.html" class="btn btn-small btn-dark-solid  "> Continue Reading</a>
                         </div>
-                    </div>
-                    <!--classic gallery post-->
-
-                    <!--classic text post-->
-                    <div class="blog-classic">
-                        <div class="date">
-                            17
-                            <span>MAR 2015</span>
-                        </div>
-                        <div class="blog-post">
-                            <h4 class="text-uppercase"><a href="blog-single.html">standard Text post</a></h4>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-user"></i>posted by <a href="#">admin</a>
-                                </li>
-                                <li><i class="fa fa-folder-open"></i>  <a href="#">lifestyle</a>, <a href="#">travel</a>, <a href="#">fashion</a>
-                                </li>
-                                <li><i class="fa fa-comments"></i>  <a href="#">4 comments</a>
-                                </li>
-                            </ul>
-                            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a href="blog-single.html" class="btn btn-small btn-dark-solid  "> Continue Reading</a>
-                        </div>
-                    </div>
-                    <!--classic text post-->
-
-                    <!--classic quote post-->
-                    <div class="blog-classic">
-                        <div class="date">
-                            17
-                            <span>MAR 2015</span>
-                        </div>
-                        <div class="blog-post">
-                            <blockquote class="quote-post">
-                                <p>
-                                    Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error
-                                </p>
-                            </blockquote>
-                            <span>- Princes Meridina</span>
-                        </div>
-                    </div>
-                    <!--classic quote post-->
-
-                    <!--classic audio post-->
-                    <div class="blog-classic">
-                        <div class="date">
-                            15
-                            <span>MAR 2015</span>
-                        </div>
-                        <div class="blog-post">
-                            <p class="audio-fit m-bot-50">
-                                <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115637399&amp;color=ff5500&amp;auto_play=false&amp;show_artwork=true"></iframe>
-                            </p>
-
-                            <h4 class="text-uppercase"><a href="blog-single.html">Audio post</a></h4>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-user"></i>posted by <a href="#">admin</a>
-                                </li>
-                                <li><i class="fa fa-folder-open"></i>  <a href="#">lifestyle</a>, <a href="#">travel</a>, <a href="#">fashion</a>
-                                </li>
-                                <li><i class="fa fa-comments"></i>  <a href="#">4 comments</a>
-                                </li>
-                            </ul>
-                            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a href="blog-single.html" class="btn btn-small btn-dark-solid  "> Continue Reading</a>
-                        </div>
-                    </div>
-                    <!--classic audio post-->
-
-                    <!--classic video post-->
-                    <div class="blog-classic">
-                        <div class="date">
-                            10
-                            <span>MAR 2015</span>
-                        </div>
-                        <div class="blog-post">
-                            <p class="video-fit m-bot-50">
-                                <iframe width="560" height="315" src="//www.youtube.com/embed/lq_BVyou38s" allowfullscreen></iframe>
-                            </p>
-                            <h4 class="text-uppercase"><a href="blog-single.html">Video post</a></h4>
-                            <ul class="post-meta">
-                                <li><i class="fa fa-user"></i>posted by <a href="#">admin</a>
-                                </li>
-                                <li><i class="fa fa-folder-open"></i>  <a href="#">lifestyle</a>, <a href="#">travel</a>, <a href="#">fashion</a>
-                                </li>
-                                <li><i class="fa fa-comments"></i>  <a href="#">4 comments</a>
-                                </li>
-                            </ul>
-                            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            <a href="blog-single.html" class="btn btn-small btn-dark-solid  "> Continue Reading</a>
-                        </div>
-
-                    </div>
-                    <!--classic video post-->
-
-
-                    <!--pagination-->
-                    <div class="text-center">
-                        <ul class="pagination custom-pagination">
-                            <li><a href="#">Prev</a>
-                            </li>
-                            <li class="active"><a href="#">1</a>
-                            </li>
-                            <li><a href="#">2</a>
-                            </li>
-                            <li><a href="#">3</a>
-                            </li>
-                            <li><a href="#">4</a>
-                            </li>
-                            <li><a href="#">5</a>
-                            </li>
-                            <li><a href="#">Next</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--pagination-->
-
+                    </aside>
                 </div>
-                <div class="col-md-4">
-
-                    <!--search widget-->
-                    <div class="widget">
-                        <form class="form-inline form" role="form">
-                            <div class="search-row">
-                                <button class="search-btn" type="submit" title="Search">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                                <input type="text" class="form-control" placeholder="Search...">
+                <div class="col-xl-9 col-lg-9">
+                    <div class="shop-top-meta mb-40">
+                        <p class="show-result">Showing Products 1-12 Of 10 Result</p>
+                        <div class="shop-meta-right">
+                            <ul>
+                                <li class="active">
+                                    <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-grid"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-list"></i></a>
+                                </li>
+                            </ul>
+                            <form action="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">
+                                <select class="custom-select">
+                                    <option selected>
+                                        Default Sorting
+                                    </option>
+                                    <option>
+                                        Free Shipping
+                                    </option>
+                                    <option>
+                                        Best Match
+                                    </option>
+                                    <option>
+                                        Newest Item
+                                    </option>
+                                    <option>
+                                        Size A - Z
+                                    </option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
+                                </div>
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">電動站立式輪椅</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
+                                </div>
                             </div>
-                        </form>
-                    </div>
-                    <!--search widget-->
-
-                    <!--author widget-->
-                    <div class="widget">
-                        <div class="heading-title-alt text-left heading-border-bottom">
-                            <h6 class="text-uppercase">about author</h6>
                         </div>
-                        <div class="full-width avatar">
-                            <img src="assets/img/post/avatar.jpg" alt="" />
-                        </div>
-                        <p>Persuaded to return to the shoemaker's shop, young Edward struggled on till three years of his wretched apprenticeship had passed over.</p>
-
-                        <span class="">- Nelson Leonard</span>
-                    </div>
-                    <!--author widget-->
-
-                    <!--latest post widget-->
-                    <div class="widget">
-                        <div class="heading-title-alt text-left heading-border-bottom">
-                            <h6 class="text-uppercase">latest post</h6>
-                        </div>
-                        <ul class="widget-latest-post">
-                            <li>
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img src="assets/img/post/post-thumb.jpg" alt="" />
-                                    </a>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
                                 </div>
-                                <div class="w-desk">
-                                    <a href="#">Old Father Getup</a>
-                                    April 25, 2014
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">電動站立式輪椅</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
+                                </div>
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">電動站立式輪椅</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
+                                </div>
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">電動站立式輪椅</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
+                                </div>
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">電動站立式輪椅</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
+                                </div>
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">電動站立式輪椅</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="pagination-wrap">
+                        <ul>
+                            <li class="prev">
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="fas fa-long-arrow-alt-left"></i>Prev</a>
                             </li>
                             <li>
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img src="assets/img/post/post-thumb-2.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="w-desk">
-                                    <a href="#">Represent is the best way</a>
-                                    March 28, 2014
-                                </div>
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">1</a>
+                            </li>
+                            <li class="active">
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">2</a>
                             </li>
                             <li>
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img src="assets/img/post/post-thumb-3.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="w-desk">
-                                    <a href="#">Alone with the music</a>
-                                    May 05, 2014
-                                </div>
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">3</a>
+                            </li>
+                            <li>
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">4</a>
+                            </li>
+                            <li>
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">...</a>
+                            </li>
+                            <li>
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">10</a>
+                            </li>
+                            <li class="next">
+                                <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#">Next <i class="fas fa-long-arrow-alt-right"></i></a>
                             </li>
                         </ul>
                     </div>
-                    <!--latest post widget-->
-
-                    <!--follow us widget-->
-                    <div class="widget">
-                        <div class="heading-title-alt text-left heading-border-bottom">
-                            <h6 class="text-uppercase">follow us</h6>
-                        </div>
-                        <div class="widget-social-link circle">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-behance"></i></a>
-                        </div>
-                    </div>
-                    <!--follow us widget-->
-
-                    <!--category widget-->
-                    <div class="widget">
-                        <div class="heading-title-alt text-left heading-border-bottom">
-                            <h6 class="text-uppercase">category</h6>
-                        </div>
-                        <ul class="widget-category">
-                            <li><a href="#">Animals</a>
-                            </li>
-                            <li><a href="#">Landscape</a>
-                            </li>
-                            <li><a href="#">Portrait</a>
-                            </li>
-                            <li><a href="#">Wild Life</a>
-                            </li>
-                            <li><a href="#">Video</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--category widget-->
-
-                    <!--comments widget-->
-                    <div class="widget">
-                        <div class="heading-title-alt text-left heading-border-bottom">
-                            <h6 class="text-uppercase">Latest comments </h6>
-                        </div>
-                        <ul class="widget-comments">
-                            <li>Jonathan on <a href="javascript:;">Vesti blulum quis dolor </a>
-                            </li>
-                            <li>Jane Doe on <a href="javascript:;">Nam sed arcu tellus</a>
-                            </li>
-                            <li>Margarita on <a href="javascript:;">Fringilla ut vel ipsum </a>
-                            </li>
-                            <li>Smith on <a href="javascript:;">Vesti blulum quis dolor sit</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--comments widget-->
-
-                    <!--tags widget-->
-                    <div class="widget">
-                        <div class="heading-title-alt text-left heading-border-bottom">
-                            <h6 class="text-uppercase">tag cloud</h6>
-                        </div>
-                        <div class="widget-tags">
-                            <a href="">Portfolio</a>
-                            <a href="">Design</a>
-                            <a href="">Link</a>
-                            <a href="">Gallery</a>
-                            <a href="">Video</a>
-                            <a href="">Clean</a>
-                            <a href="">Retina</a>
-                        </div>
-                    </div>
-                    <!--tags widget-->
-
                 </div>
             </div>
         </div>
     </div>
-
-
-</section>
+    {{--<!-- shop-area-end --> --}}
+</main>
 <!--body content end-->
 @endsection
 
