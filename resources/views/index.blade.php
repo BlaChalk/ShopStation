@@ -56,7 +56,7 @@
 
                         <!--logo start-->
                         <a href="/" class="logo-brand">
-                            <img id="logo" src="images/head/logo.jpg" alt="Comfort">
+                            <img id="logo" src="images/head/logo-dark.png" alt="Comfort">
                             {{-- <img class="retina" src="assets/img/logo-dark.png" alt="Massive"> --}}
                         </a>
                         <!--logo end-->
