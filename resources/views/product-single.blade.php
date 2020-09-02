@@ -4,7 +4,7 @@
     <link href="css/product-single/bootstrap.min.css" rel="stylesheet">
 	<link href="css/product-single/animate.min.css" rel="stylesheet">
 	<link href="css/product-single/magnific-popup.css" rel="stylesheet">
-	<link href="css/product-single/fontawesome-all.min.css" rel="stylesheet">
+	{{-- <link href="css/product-single/fontawesome-all.min.css" rel="stylesheet"> --}}
 	<link href="css/product-single/owl.carousel.min.css" rel="stylesheet">
 	<link href="css/product-single/jquery-ui.min.css" rel="stylesheet">
 	<link href="css/product-single/flaticon.css" rel="stylesheet">
