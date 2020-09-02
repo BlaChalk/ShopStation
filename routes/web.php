@@ -22,6 +22,11 @@ Route::get('/product', function () {
     return view('product');
 });
 
+Route::get('/product-single', function () {
+    return view('product-single');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

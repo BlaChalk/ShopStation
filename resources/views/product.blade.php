@@ -23,7 +23,6 @@
 
 @section('content')
 <!--body content start-->
-<main>
     {{-- <!-- shop-area --> --}}
     <div class="shop-area gray-bg pt-100 pb-100">
         <div class="custom-container-two">
@@ -419,7 +418,6 @@
         </div>
     </div>
     {{--<!-- shop-area-end --> --}}
-</main>
 <!--body content end-->
 @endsection
 
