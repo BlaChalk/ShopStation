@@ -47,15 +47,15 @@
 							<div class="shop-details-nav slick-initialized slick-slider slick-vertical">
 								<div class="slick-list draggable" style="height: 565.956px; padding: 0px;">
 									<div class="slick-track" style="opacity: 1; height: 2123px; transform: translate3d(0px, -565px, 0px);">
-										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-5" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom01.jpg"></div>
-										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-4" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom02.jpg"></div>
-										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-3" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom03.jpg"></div>
+										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-5" id="" style="width: 103px;" tabindex="-1"><img alt="" src=""></div>
+										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-4" id="" style="width: 103px;" tabindex="-1"><img alt="" src=""></div>
+										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-3" id="" style="width: 103px;" tabindex="-1"><img alt="" src=""></div>
 										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="-2" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom04.jpg"></div>
-										<div aria-hidden="false" class="shop-nav-item slick-slide slick-cloned slick-active" data-slick-index="-1" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom03.jpg"></div>
-										<div aria-hidden="false" class="shop-nav-item slick-slide slick-current slick-active slick-center" data-slick-index="0" style="width: 103px;" tabindex="0"><img alt="" src="temp/sd_bottom01.jpg"></div>
-										<div aria-hidden="false" class="shop-nav-item slick-slide slick-active" data-slick-index="1" style="width: 103px;" tabindex="0"><img alt="" src="temp/sd_bottom02.jpg"></div>
-										<div aria-hidden="false" class="shop-nav-item slick-slide slick-active" data-slick-index="2" style="width: 103px;" tabindex="0"><img alt="" src="temp/sd_bottom03.jpg"></div>
-										<div aria-hidden="true" class="shop-nav-item slick-slide" data-slick-index="3" style="width: 103px;" tabindex="0"><img alt="" src="temp/sd_bottom04.jpg"></div>
+										<div aria-hidden="false" class="shop-nav-item slick-slide slick-cloned slick-active" data-slick-index="-1" id="" style="width: 103px;" tabindex="-1"><img alt="" src="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg"></div>
+										<div aria-hidden="false" class="shop-nav-item slick-slide slick-current slick-active slick-center" data-slick-index="0" style="width: 103px;" tabindex="0"><img alt="" src="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg"></div>
+										<div aria-hidden="false" class="shop-nav-item slick-slide slick-active" data-slick-index="1" style="width: 103px;" tabindex="0"><img alt="" src="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg"></div>
+										<div aria-hidden="false" class="shop-nav-item slick-slide slick-active" data-slick-index="2" style="width: 103px;" tabindex="0"><img alt="" src="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg"></div>
+										<div aria-hidden="true" class="shop-nav-item slick-slide" data-slick-index="3" style="width: 103px;" tabindex="0"><img alt="" src="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg"></div>
 										<div aria-hidden="true" class="shop-nav-item slick-slide" data-slick-index="4" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom03.jpg"></div>
 										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned slick-center" data-slick-index="5" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom01.jpg"></div>
 										<div aria-hidden="true" class="shop-nav-item slick-slide slick-cloned" data-slick-index="6" id="" style="width: 103px;" tabindex="-1"><img alt="" src="temp/sd_bottom02.jpg"></div>
@@ -74,16 +74,16 @@
 											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="0"><img alt="" src="images/product/pro_img01_b.jpg"></a>
 										</div>
 										<div aria-hidden="true" class="shop-details-img slick-slide" data-slick-index="1" style="width: 501px; position: relative; left: -501px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="-1"><img alt="" src="/uploads/users/admin/2012/11/_MG_2775-ok.jpg"></a>
+											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="-1"><img alt="" src="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg"></a>
 										</div>
 										<div aria-hidden="true" class="shop-details-img slick-slide" data-slick-index="2" style="width: 501px; position: relative; left: -1002px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="-1"><img alt="" src="temp/shop_details_img01.jpg"></a>
+											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="-1"><img alt="" src="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg"></a>
 										</div>
 										<div aria-hidden="true" class="shop-details-img slick-slide" data-slick-index="3" style="width: 501px; position: relative; left: -1503px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="-1"><img alt="" src="temp/shop_details_img01.jpg"></a>
+											<a class="popup-image" href="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg" tabindex="-1"><img alt="" src="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg"></a>
 										</div>
 										<div aria-hidden="true" class="shop-details-img slick-slide" data-slick-index="4" style="width: 501px; position: relative; left: -2004px; top: 0px; z-index: 998; opacity: 0;" tabindex="-1">
-											<a class="popup-image" href="temp/shop_details_img01.jpg" tabindex="-1"><img alt="" src="temp/shop_details_img01.jpg"></a>
+											<a class="popup-image" href="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg" tabindex="-1"><img alt="" src="storage/uploads/users/admin/2012/11/_MG_2775-ok.jpg"></a>
 										</div>
 									</div>
 								</div>
@@ -93,16 +93,16 @@
 					<div class="col-xl-5 col-lg-6">
 						<div class="shop-details-content">
 							<span class="stock-info">In Stock</span>
-							<h2>The Christina Fashion</h2>
+							<h2>翱翔號</h2>
 							<div class="shop-details-review">
-								<div class="rating">
+								{{-- <div class="rating">
 									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-								</div><span>- 3 Customer Reviews</span>
+								</div><span>- 3 Customer Reviews</span> --}}
 							</div>
 							<div class="shop-details-price">
-								<h2>$29.00 <del>$49.00</del></h2>
+								<h2>$29000 <del>$39000</del></h2>
 							</div>
-							<p>Cramond Leopard &amp; Pythong Print Anorak Jacket In Beige but also the leap into electronic typesetting,remaining</p>
+							<p>首款椅天使翅膀為概念所設計之站立式電動輪椅，開發設計即是讓使用者可以任意調整各種坐姿，讓身體處於自然狀態也是符合人體工學的站立式輪椅。</p>
 							<div class="product-details-size mb-40">
 								<span>Size:</span><a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">Guide</a><a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">Can't Find Your Size?</a>
 								<ul>
@@ -136,9 +136,9 @@
 											</div>
 										</div>
 									</form>
-								</div><a class="btn add-card-btn" href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">ADD TO CART</a>
+								</div><a class="btn add-card-btn" href="">ADD TO CART</a>
 							</div>
-							<div class="shop-details-bottom">
+							{{-- <div class="shop-details-bottom">
 								<h5><a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#"><i class="far fa-heart"></i> Add To Wishlist</a></h5>
 								<ul>
 									<li>
@@ -148,7 +148,7 @@
 										<span>CATEGORIES :</span> <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">women's,</a><a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">bikini,</a><a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">tops for,</a><a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#">large bust</a>
 									</li>
 								</ul>
-							</div>
+							</div> --}}
 						</div>
 					</div>
 				</div>
@@ -283,9 +283,12 @@
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="related-product-wrap pb-95">
+                            </div>
+                        </div>
+						{{-- <div class="shop-details-add mb-95">
+							<a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-details.html#"><img alt="" src="temp/shop_details_add.jpg"></a>
+						</div> --}}
+						{{-- <div class="related-product-wrap pb-95">
 							<div class="deal-day-top">
 								<div class="deal-day-title">
 									<h4 class="title">Viewers Also Liked</h4>
@@ -680,8 +683,8 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="product-reviews-wrap">
+						</div> --}}
+						{{-- <div class="product-reviews-wrap">
 							<div class="deal-day-top">
 								<div class="deal-day-title">
 									<h4 class="title">Product Reviews</h4>
@@ -791,7 +794,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> --}}
 					</div>
 				</div>
 			</div>
@@ -829,8 +832,8 @@
                 </div>
                 <div class="col-md-3">
                     <h5 class="text-uppercase">quick link</h5>
-                    <h5 class="text-uppercase">quick link</h5>
-                    <uproduct-single-slick.css                        <li><a href="#">About Massive</a>
+                    <ul class="f-list">
+                        <li><a href="#">About Massive</a>
                         </li>
                         <li><a href="#">Career</a>
                         </li>
@@ -896,12 +899,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <span class="m-top-10">Copyright 2012 - 2015 Massive Theme by <a href="http://themebucket.net/" class="f-link" target="_blank">ThemeBucket</a> | All Rights Reserved</span>
-                    <span class="m-top-10">Copyright 2012 - 2015 Massive Theme by <a href="http://themebucket.net/" class="f-link" target="_blank">ThemeBuckeproduct-single-slick.css Reserved</span>
                 </div>
                 <div class="col-md-6">
                     <div class="social-link circle pull-right">
-                    <div class="social-link circle pull-right">
-       product-single-slick.cssa href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-dribbble"></i></a>
                         <a href="#"><i class="fa fa-google-plus"></i></a>
@@ -918,22 +919,22 @@
 @section('script')
     <script src="js/product-single/popper.min.js">
 	</script>
-	<script src="js/product-single/bootstrap.min.js">
-	</script>
+	{{-- <script src="js/product-single/bootstrap.min.js">
+	</script> --}}
 	<script src="js/product-single/isotope.pkgd.min.js">
 	</script>
-	<script src="js/product-single/imagesloaded.pkgd.min.js">
-	</script>
+	{{-- <script src="js/product-single/imagesloaded.pkgd.min.js">
+	</script> --}}
 	<script src="js/product-single/jquery.magnific-popup.min.js">
 	</script>
 	<script src="js/product-single/owl.carousel.min.js">
 	</script>
-	<script src="js/product-single/jquery.odometer.min.js">
+	{{-- <script src="js/product-single/jquery.odometer.min.js">
 	</script>
 	<script src="js/product-single/jquery.countdown.min.js">
 	</script>
 	<script src="js/product-single/jquery.appear.js">
-	</script>
+	</script> --}}
 	<script src="js/product-single/slick.min.js">
 	</script>
 	<script src="js/product-single/ajax-form.js">
