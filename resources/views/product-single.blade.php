@@ -917,24 +917,26 @@
 @endsection
 
 @section('script')
+    <script src="js/product-single/jquery-3.5.0.min.js">
+    </script>
     <script src="js/product-single/popper.min.js">
 	</script>
-	{{-- <script src="js/product-single/bootstrap.min.js">
-	</script> --}}
+	<script src="js/product-single/bootstrap.min.js">
+	</script>
 	<script src="js/product-single/isotope.pkgd.min.js">
 	</script>
-	{{-- <script src="js/product-single/imagesloaded.pkgd.min.js">
-	</script> --}}
+	<script src="js/product-single/imagesloaded.pkgd.min.js">
+	</script>
 	<script src="js/product-single/jquery.magnific-popup.min.js">
 	</script>
 	<script src="js/product-single/owl.carousel.min.js">
 	</script>
-	{{-- <script src="js/product-single/jquery.odometer.min.js">
+	<script src="js/product-single/jquery.odometer.min.js">
 	</script>
 	<script src="js/product-single/jquery.countdown.min.js">
 	</script>
 	<script src="js/product-single/jquery.appear.js">
-	</script> --}}
+	</script>
 	<script src="js/product-single/slick.min.js">
 	</script>
 	<script src="js/product-single/ajax-form.js">
