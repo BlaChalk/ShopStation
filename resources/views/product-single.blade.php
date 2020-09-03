@@ -16,6 +16,41 @@
 	<link href="css/product-single/responsive.css" rel="stylesheet">
 @endsection
 
+@section('script')
+    <script src="js/product-single/jquery-3.5.0.min.js">
+    </script>
+    <script src="js/product-single/popper.min.js">
+    </script>
+    <script src="js/product-single/bootstrap.min.js">
+    </script>
+    <script src="js/product-single/isotope.pkgd.min.js">
+    </script>
+    <script src="js/product-single/imagesloaded.pkgd.min.js">
+    </script>
+    <script src="js/product-single/jquery.magnific-popup.min.js">
+    </script>
+    <script src="js/product-single/owl.carousel.min.js">
+    </script>
+    <script src="js/product-single/jquery.odometer.min.js">
+    </script>
+    <script src="js/product-single/jquery.countdown.min.js">
+    </script>
+    <script src="js/product-single/jquery.appear.js">
+    </script>
+    <script src="js/product-single/slick.min.js">
+    </script>
+    <script src="js/product-single/ajax-form.js">
+    </script>
+    <script src="js/product-single/wow.min.js">
+    </script>
+    <script src="js/product-single/aos.js">
+    </script>
+    <script src="js/product-single/plugins.js">
+    </script>
+    <script src="js/product-single/main.js">
+    </script>
+@endsection
+
 @section('page-title')
     <!--page title start-->
     <section class="page-title">
@@ -173,7 +208,7 @@
 								</li>
 							</ul>
 							<div class="tab-content" id="myTabContent">
-								<div aria-labelledby="details-tab" class="tab-pane fade show active" id="details" role="tabpanel">
+								<div aria-labelledby="details-tab" class="tab-pane fade show in active" id="details" role="tabpanel">
 									<div class="product-desc-content">
 										<h4 class="title">Product Details</h4>
 										<div class="row">
@@ -916,37 +951,3 @@
 <!--footer 1 end-->
 @endsection
 
-@section('script')
-    <script src="js/product-single/jquery-3.5.0.min.js">
-    </script>
-    <script src="js/product-single/popper.min.js">
-	</script>
-	<script src="js/product-single/bootstrap.min.js">
-	</script>
-	<script src="js/product-single/isotope.pkgd.min.js">
-	</script>
-	<script src="js/product-single/imagesloaded.pkgd.min.js">
-	</script>
-	<script src="js/product-single/jquery.magnific-popup.min.js">
-	</script>
-	<script src="js/product-single/owl.carousel.min.js">
-	</script>
-	<script src="js/product-single/jquery.odometer.min.js">
-	</script>
-	<script src="js/product-single/jquery.countdown.min.js">
-	</script>
-	<script src="js/product-single/jquery.appear.js">
-	</script>
-	<script src="js/product-single/slick.min.js">
-	</script>
-	<script src="js/product-single/ajax-form.js">
-	</script>
-	<script src="js/product-single/wow.min.js">
-	</script>
-	<script src="js/product-single/aos.js">
-	</script>
-	<script src="js/product-single/plugins.js">
-	</script>
-	<script src="js/product-single/main.js">
-	</script>
-@endsection

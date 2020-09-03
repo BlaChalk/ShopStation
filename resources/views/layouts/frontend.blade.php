@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    @include('layouts.head')
-
-    @yield('head')
-</head>
+    <head>
+        @include('layouts.head')
+        @yield('head')
+        @yield('layouts.script')
+    </head>
 
 <body>
     @include('layouts.preloader')
@@ -24,7 +24,6 @@
 
     @include('layouts.js')
 
-    @yield('layouts.script')
 </body>
 
 </html>
