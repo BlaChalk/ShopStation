@@ -30,3 +30,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+// Admin
+
+Route::resource('/admin/product-details', 'ProductDetailController');
