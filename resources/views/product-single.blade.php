@@ -50,19 +50,7 @@
                     <div class="shop-details-img-wrap">
                         <div class="shop-details-active">
                             <div class="shop-details-img">
-                                <a href="assets-shop/img/product/shop_details_img01.jpg" class="popup-image"><img src="assets-shop/img/product/shop_details_img01.jpg" alt=""></a>
-                            </div>
-                            <div class="shop-details-img">
-                                <a href="assets-shop/img/product/shop_details_img01.jpg" class="popup-image"><img src="assets-shop/img/product/shop_details_img01.jpg" alt=""></a>
-                            </div>
-                            <div class="shop-details-img">
-                                <a href="assets-shop/img/product/shop_details_img01.jpg" class="popup-image"><img src="assets-shop/img/product/shop_details_img01.jpg" alt=""></a>
-                            </div>
-                            <div class="shop-details-img">
-                                <a href="assets-shop/img/product/shop_details_img01.jpg" class="popup-image"><img src="assets-shop/img/product/shop_details_img01.jpg" alt=""></a>
-                            </div>
-                            <div class="shop-details-img">
-                                <a href="assets-shop/img/product/shop_details_img01.jpg" class="popup-image"><img src="assets-shop/img/product/shop_details_img01.jpg" alt=""></a>
+                                <a href="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg" class="popup-image"><img src="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -70,8 +58,8 @@
                 <div class="col-xl-5 col-lg-6">
                     <div class="shop-details-content">
                         <span class="stock-info">In Stock</span>
-                        <h2>The Christina Fashion</h2>
-                        <div class="shop-details-review">
+                        <h2>翱翔號 <p>時尚設計型</p></h2>
+                        {{-- <div class="shop-details-review">
                             <div class="rating">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -80,21 +68,18 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <span>- 3 Customer Reviews</span>
-                        </div>
+                        </div> --}}
                         <div class="shop-details-price">
-                            <h2>$29.00 <del>$49.00</del></h2>
+                            <h2>$29000 <del>$49000</del></h2>
                         </div>
-                        <p>Cramond Leopard & Pythong Print Anorak Jacket In Beige but also the leap into electronic typesetting, remaining</p>
+                        <p>翱翔號為首款以天使翅膀為概念設計之站立式電動輪椅，開發設計即是讓使用者可以任意調整各種坐姿，讓身體處於自然狀態也是符合人體工學的站立式輪椅。</p>
                         <div class="product-details-size mb-40">
-                            <span>Size : </span>
-                            <a href="#">Guide</a>
-                            <a href="#">Can't Find Your Size?</a>
+                            <span>顏色 : </span>
+                            {{-- <a href="#">Guide</a>
+                            <a href="#">Can't Find Your Size?</a> --}}
                             <ul>
                                 <li><a href="#">XXS</a></li>
                                 <li><a href="#">XS</a></li>
-                                <li><a href="#">s</a></li>
-                                <li><a href="#">M</a></li>
-                                <li><a href="#">L</a></li>
                             </ul>
                         </div>
                         <div class="perched-info">
@@ -105,11 +90,11 @@
                                     </div>
                                 </form>
                             </div>
-                            <a href="#" class="btn add-card-btn">ADD TO CART</a>
+                            <a href="#" class="btn add-card-btn">加入購物車</a>
                         </div>
                         <div class="shop-details-bottom">
-                            <h5><a href="#"><i class="far fa-heart"></i> Add To Wishlist</a></h5>
-                            <ul>
+                            <h5><a href="#"><i class="far fa-heart"></i> 加入最愛</a></h5>
+                            {{-- <ul>
                                 <li>
                                     <span>Tag : </span>
                                     <a href="#">clothing</a>
@@ -121,7 +106,7 @@
                                     <a href="#">tops for,</a>
                                     <a href="#">large bust</a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
@@ -141,14 +126,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="looks-tab" data-toggle="tab" href="#looks" role="tab" aria-controls="looks"
                                     aria-selected="false">Looks</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
-                                    aria-selected="false">Product Reviews</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="qa-tab" data-toggle="tab" href="#qa" role="tab" aria-controls="qa"
-                                    aria-selected="false">Q&A</a>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
@@ -284,10 +261,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="shop-details-add mb-95">
+                    {{-- <div class="shop-details-add mb-95">
                         <a href="#"><img src="assets-shop/img/product/shop_details_add.jpg" alt=""></a>
-                    </div>
-                    <div class="related-product-wrap pb-95">
+                    </div> --}}
+                    {{-- <div class="related-product-wrap pb-95">
                         <div class="deal-day-top">
                             <div class="deal-day-title">
                                 <h4 class="title">Viewers Also Liked</h4>
@@ -571,7 +548,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -584,7 +561,7 @@
     <footer class="footer-area">
         <div class="footer-top pt-65 pb-25">
             <div class="container">
-                <div class="footer-newsletter-wrap footer-newsletter-two">
+                {{-- <div class="footer-newsletter-wrap footer-newsletter-two">
                     <div class="row align-items-center">
                         <div class="col-xl-7 col-lg-6">
                             <div class="newsletter-title">
@@ -638,7 +615,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="row justify-content-between">
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-widget mb-50">

@@ -14,7 +14,7 @@
                         <div class="col-md-8 col-sm-7">
                             <div class="header-top-left">
                                 <ul>
-                                    <li>
+                                    {{-- <li>
                                         <div class="ship-to">
                                             <span>Ship to</span>
                                             <div class="dropdown">
@@ -45,7 +45,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> --}}
                                     <li>
                                         <div class="heder-top-guide">
                                             <div class="dropdown">

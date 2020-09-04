@@ -15,3 +15,4 @@
 <script src="assets-shop/js/aos.js"></script>
 <script src="assets-shop/js/plugins.js"></script>
 <script src="assets-shop/js/main.js"></script>
+<script src="js/frontend.js"></script>
