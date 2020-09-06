@@ -25,6 +25,7 @@ Route::get('/product', function () {
 Route::get('/product-single', function () {
     return view('product-single');
 });
+Route::get('/product-detail/{productDetail}', 'ProductDetailController@showByPublic');
 
 Auth::routes();
 

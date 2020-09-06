@@ -87,7 +87,7 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
                                     <div class="logo">
-                                        <a href="index.html"><img src="images/head/logo.jpg" alt="Logo"></a>
+                                        <a href="index.html"><img src="/images/head/logo.jpg" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">

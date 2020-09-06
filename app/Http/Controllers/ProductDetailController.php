@@ -51,6 +51,11 @@ class ProductDetailController extends Controller
      * @param  \App\ProductDetail  $productDetail
      * @return \Illuminate\Http\Response
      */
+    public function showByPublic(ProductDetail $productDetail)
+    {
+        return view('product-detail', ['productDetail' => $productDetail]);
+    }
+
     public function show(ProductDetail $productDetail)
     {
         //
