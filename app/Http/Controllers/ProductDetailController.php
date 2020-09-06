@@ -26,8 +26,8 @@ class ProductDetailController extends Controller
      */
     public function create()
     {
-        // $productDetail = new ProductDetail;
-        return view('/admin.productDetails.create');
+        $productDetail = new ProductDetail;
+        return view('/admin.productDetails.create', ['productDetail' => $productDetail]);
     }
 
     /**
