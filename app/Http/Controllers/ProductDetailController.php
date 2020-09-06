@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\ProductDetail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class ProductDetailController extends Controller
 {
@@ -14,7 +15,8 @@ class ProductDetailController extends Controller
      */
     public function index()
     {
-        return view('/admin.productDetails.index')
+        $productDetails = ProductDetail::all();
+        return view('/admin.productDetails.index', ['productDetails' => $productDetails]);
     }
 
     /**
@@ -39,10 +41,18 @@ class ProductDetailController extends Controller
 
         $productDetail = new ProductDetail;
         $productDetail->fill($request->all());
-        // $productDetail->thumbnail = $this->addThnumbnail($request);
+        $productDetail->bigPicture = $this->addPicture($request);
         $productDetail->save();
 
         return redirect('/admin/product-details');
+    }
+
+    private function addPicture(Request $request)
+    {
+        $path = $request->file('bigPicture')->store('public/productPictures');
+        $path = str_replace('public/', '/storage/', $path);
+
+        return $path;
     }
 
     /**
@@ -69,7 +79,7 @@ class ProductDetailController extends Controller
      */
     public function edit(ProductDetail $productDetail)
     {
-        //
+        return view('/admin.productDetails.edit', ['productDetail' => $productDetail]);
     }
 
     /**
@@ -81,7 +91,13 @@ class ProductDetailController extends Controller
      */
     public function update(Request $request, ProductDetail $productDetail)
     {
-        //
+        $productDetail->fill($request->all());
+        if(!is_null($request->file('bigPicture')))
+            $productDetail->bigPicture = $this->addPicture($request);
+
+        $productDetail->save();
+
+        return redirect('/admin/product-details');
     }
 
     /**
