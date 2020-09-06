@@ -50,7 +50,9 @@
                     <div class="shop-details-img-wrap">
                         <div class="shop-details-active">
                             <div class="shop-details-img">
-                                <a href="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg" class="popup-image"><img src="storage/uploads/users/admin/2014/12/ANGEL-_aE9_a87_a91_aE9_aBB_a9E_aE7_a8D_a8EMARK-01.jpg" alt=""></a>
+                                <a href="{{ $productDetail->bigPicture }}" alt="">
+                                    <img src="{{ $productDetail->bigPicture }}" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +60,7 @@
                 <div class="col-xl-5 col-lg-6">
                     <div class="shop-details-content">
                         <span class="stock-info">In Stock</span>
-                        <h2>{{ $productDetail->name }}<p>時尚設計型</p></h2>
+                        <h2>{{ $productDetail->name }}<p>{{ $productDetail->serialName }}</p></h2>
                         {{-- <div class="shop-details-review">
                             <div class="rating">
                                 <i class="fas fa-star"></i>
@@ -70,9 +72,9 @@
                             <span>- 3 Customer Reviews</span>
                         </div> --}}
                         <div class="shop-details-price">
-                            <h2>$29000 <del>$49000</del></h2>
+                            <h2>{{ $productDetail->price }} <del>$49000</del></h2>
                         </div>
-                        <p>翱翔號為首款以天使翅膀為概念設計之站立式電動輪椅，開發設計即是讓使用者可以任意調整各種坐姿，讓身體處於自然狀態也是符合人體工學的站立式輪椅。</p>
+                        <p>{{ $productDetail->content }}</p>
                         <div class="product-details-size mb-40">
                             <span>顏色 : </span>
                             {{-- <a href="#">Guide</a>
