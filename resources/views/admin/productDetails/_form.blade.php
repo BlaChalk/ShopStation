@@ -45,10 +45,11 @@
         @if ($productDetail->bigPicture)
             <img width="320" src="{{ $productDetail->bigPicture }}" alt="bigPicture">
         @endif
-        <div class="custom-file">
+        {{-- <div class="custom-file">
             <input type="file" name="bigPicture" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Choose file</label>
-        </div>
+        </div> --}}
+        <input id="input-1" type="file" name="bigPicture" class="file" data-preview-file-type="text"  data-show-upload="false"  multiple="multiple">
     </div>
     <div class="form-group">
         <label for="content">產品介紹</label>
