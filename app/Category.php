@@ -11,8 +11,13 @@ class Category extends Model
         'name',
     ];
 
-    public function commodities()
+    public function productDetails()
     {
         return $this->hasMany('App/ProductDetail');
+    }
+
+    public function main_category()
+    {
+        return $this->belongsTo('App/MainCategory');
     }
 }

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
+use App\MainCategory;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class CategoryController extends Controller
 {
@@ -23,7 +26,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('/admin.categories.create');
     }
 
     /**
@@ -34,7 +37,17 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $mainCategory = new MainCategory();
+        $mainCategory->fill($request->all());
+        $mainCategory->save();
+
+        $category = new Category();
+        $category->fill($request->all());
+        $category->main_category_id = $mainCategory->id;
+        $category->save();
+
+        return redirect('/admin/categories');
     }
 
     /**

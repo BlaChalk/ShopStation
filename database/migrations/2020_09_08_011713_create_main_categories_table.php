@@ -15,7 +15,7 @@ class CreateMainCategoriesTable extends Migration
     {
         Schema::create('main_categories', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
+            $table->string('main_name');
             $table->timestamps();
         });
 
@@ -33,8 +33,8 @@ class CreateMainCategoriesTable extends Migration
     public function down()
     {
         Schema::table('categories', function (Blueprint $table) {
-            $table->dropForeign('main_category_id');
-            $table->dropColumn('main_category_id');
+            $table->dropForeign(['main_category_id']);
+            $table->dropColumn(['main_category_id']);
         });
 
         Schema::dropIfExists('main_categories');
