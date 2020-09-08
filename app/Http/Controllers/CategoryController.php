@@ -16,7 +16,10 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        $mainCategories = MainCategory::all();
+        $categories = Category::all();
+
+        return view('admin.categories.index', ['mainCategories' => $mainCategories, 'categories' => $categories]);
     }
 
     /**
