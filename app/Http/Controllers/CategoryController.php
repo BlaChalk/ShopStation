@@ -26,7 +26,9 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('/admin.categories.create');
+        $mainCategories = MainCategory::all();
+
+        return view('/admin.categories.create', ['mainCategories' => $mainCategories]);
     }
 
     /**
@@ -38,13 +40,18 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
 
-        $mainCategory = new MainCategory();
-        $mainCategory->fill($request->all());
-        $mainCategory->save();
-
         $category = new Category();
         $category->fill($request->all());
-        $category->main_category_id = $mainCategory->id;
+
+        // 新增主分類
+        if(!$category->main_category_id)
+        {
+            $mainCategory = new MainCategory();
+            $mainCategory->fill($request->all());
+            $mainCategory->save();
+            $category->main_category_id = $mainCategory->id;
+        }
+
         $category->save();
 
         return redirect('/admin/categories');
