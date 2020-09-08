@@ -40,4 +40,10 @@
             @endforeach
         </div>
     </div>
+
+<form id='delete-form' action="/admin/product-details/id" method="post">
+    <input type="hidden" name="_method" value="delete">
+    @csrf
+</form>
+
 @endsection

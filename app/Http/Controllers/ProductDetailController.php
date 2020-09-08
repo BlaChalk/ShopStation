@@ -108,6 +108,8 @@ class ProductDetailController extends Controller
      */
     public function destroy(ProductDetail $productDetail)
     {
-        //
+        $productDetail->delete();
+
+        return redirect('/admin/product-details');
     }
 }

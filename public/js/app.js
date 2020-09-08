@@ -49755,6 +49755,15 @@ var app = new Vue({
   el: '#app'
 });
 
+deleteproductDetail = function deleteproductDetail(id) {
+  var result = confirm('Do you want to delete this Product?');
+
+  if (result) {
+    var actionURL = '/admin/product-details/' + id;
+    $('#delete-form').attr('action', actionURL).submit();
+  }
+};
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
