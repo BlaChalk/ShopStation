@@ -28,8 +28,15 @@
         <ul class="list-group">
             @foreach ($mainCategories as $item => $mainCategory)
              <li  class="list-group-item clearfix shadow-sm mt-1">
-                <div class="float-left col-lg-3 mt-2 font-weight-bold">
+                <div class="float-left col-lg-2 mt-2 font-weight-bold">
                     <div><a href="/admin/categories/{{ $mainCategory->id }}/edit">{{ $mainCategory->main_name }}</a></div>
+                </div>
+                <div class="float-left col-lg-2">
+                    @if (!$mainCategory->thumbnail)
+                        <div class="text-danger mt-2">no Picture</div>
+                    @else
+                <img width="50" src="{{ $mainCategory->thumbnail }}" alt="thumbnail">
+                    @endif
                 </div>
                 <span class="col-lg-6">
                     @foreach ($categories as $item => $category)

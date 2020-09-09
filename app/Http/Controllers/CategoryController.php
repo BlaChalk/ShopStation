@@ -51,6 +51,7 @@ class CategoryController extends Controller
         {
             $mainCategory = new MainCategory();
             $mainCategory->fill($request->all());
+            $mainCategory->thumbnail = $this->addThumbnail($request);
             $mainCategory->save();
             $category->main_category_id = $mainCategory->id;
         }
@@ -58,6 +59,14 @@ class CategoryController extends Controller
         $category->save();
 
         return redirect('/admin/categories');
+    }
+
+    private function addThumbnail(Request $request)
+    {
+        $path = $request->file('thumbnail')->store('public/thumbnails');
+        $path = str_replace('public/', '/storage/', $path);
+
+        return $path;
     }
 
     /**
@@ -108,7 +117,7 @@ class CategoryController extends Controller
 
         foreach ($mainCategories as $key => $mainCategory) {
             if ($mainCategory->id == $id) {
-                if($mainCategory->main_name != $request->main_name)
+                if ($mainCategory->main_name != $request->main_name)
                 {
                     $mainCategory->main_name = $request->main_name;
                     $mainCategory->save();

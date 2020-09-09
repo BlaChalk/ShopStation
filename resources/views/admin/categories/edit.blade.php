@@ -11,6 +11,23 @@
                 <label for="">主分類</label>
                 <input type="text" name="main_name" class="form-control" id="" placeholder="" value="{{ $mainCategory->main_name }}">
             </div>
+            <div class="form-group">
+                <label class="form-inline" for="">主分類圖示</label>
+                @if (!$mainCategory->thumbnail)
+                    <div class="text-danger">no Picture</div>
+                @else
+                    <img width="50" src="{{ $mainCategory->thumbnail }}" alt="thumbnail">
+                @endif
+                <div class="input-group mt-3 mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" name="thumbnail" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div>
+            </div>
             <label for="">子種類</label>
             <ul class="list-group mb-3">
                 @foreach ($categories as $item => $category)

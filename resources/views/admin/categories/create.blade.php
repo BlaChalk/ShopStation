@@ -4,7 +4,7 @@
 <section class="page-content">
     <div class="container">
 
-        <form action="/admin/categories" method="post">
+        <form action="/admin/categories" method="post" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -26,6 +26,18 @@
                                 <option value="{{ $mainCategory->id }}">{{ $mainCategory->main_name }}</option>
                             @endforeach
                         </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="form-inline" for="">主分類圖示</label>
+                <div class="input-group mb-3" id="thumbnail">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" name="thumbnail" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                     </div>
                 </div>
             </div>
