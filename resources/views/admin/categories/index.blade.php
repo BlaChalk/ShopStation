@@ -23,7 +23,6 @@
                         <button class="btn btn-danger" onclick="deleteMainCategory({{ $mainCategory->id }})">delete</button>
                     </div>
                 </span>
-
              </li>
             @endforeach
         </ul>

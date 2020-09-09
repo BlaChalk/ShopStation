@@ -79,7 +79,19 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        //
+
+        $mainCategories = MainCategory::all();
+        $mainCategory = new MainCategory();
+
+        foreach ($mainCategories as $key => $value) {
+            if ($value->id == $id) {
+                $mainCategory = $value;
+            }
+        }
+
+        $categories = Category::all();
+
+        return view('/admin/categories.edit', ['mainCategory' => $mainCategory, 'categories' => $categories]);
     }
 
     /**
@@ -91,7 +103,21 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
+        $mainCategories = MainCategory::all();
+
+        foreach ($mainCategories as $key => $mainCategory) {
+            if ($mainCategory->id == $id) {
+                if($mainCategory->main_name != $request->main_name)
+                {
+                    $mainCategory->main_name = $request->main_name;
+                    $mainCategory->save();
+                    break;
+                }
+            }
+        }
+
+        return redirect('/admin/categories');
     }
 
     /**
