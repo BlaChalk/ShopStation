@@ -38,3 +38,11 @@ deleteproductDetail = function (id) {
         $('#delete-form').attr('action', actionURL).submit();
     }
 }
+
+deleteMainCategory = function (id) {
+    let result = confirm('Do you want to delete this MainCategory?');
+    if (result) {
+        let actionURL = '/admin/categories/'+id;
+        $('#delete-form').attr('action', actionURL).submit();
+    }
+}

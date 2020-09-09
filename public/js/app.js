@@ -49764,6 +49764,15 @@ deleteproductDetail = function deleteproductDetail(id) {
   }
 };
 
+deleteMainCategory = function deleteMainCategory(id) {
+  var result = confirm('Do you want to delete this MainCategory?');
+
+  if (result) {
+    var actionURL = '/admin/categories/' + id;
+    $('#delete-form').attr('action', actionURL).submit();
+  }
+};
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

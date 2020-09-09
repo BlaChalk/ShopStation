@@ -128,6 +128,26 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+
+        $mainCategories = MainCategory::all();
+        $mainCategory = new MainCategory();
+
+        foreach ($mainCategories as $key => $value) {
+            if ($value->id == $id) {
+                $mainCategory = $value;
+            }
+        }
+
+        $categories = Category::all();
+
+        foreach ($categories as $key => $category) {
+            if ($category->main_category_id == $mainCategory->id) {
+                $category->delete();
+            }
+        }
+
+        $mainCategory->delete();
+
+        return redirect('/admin/categories');
     }
 }

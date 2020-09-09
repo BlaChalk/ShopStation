@@ -29,4 +29,10 @@
 
     </div>
 </section>
+
+<form id='delete-form' action="/admin/categories/id" method="post">
+    <input type="hidden" name="_method" value="delete">
+    @csrf
+</form>
+
 @endsection
