@@ -1,12 +1,30 @@
 @extends('layouts/app')
 
 @section('page-title')
-
+<section class="page-title">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-uppercase">Product Admin Panel</h4>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active">Product Admin Panel</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
 
 @section('content')
     <div class="page-content">
         <div class="container">
+
+            <div class="toolbox clearfix">
+                <a href="/admin/product-details/create" class="btn btn-primary pull-right mr-1 mt-2">Create Product</a>
+            </div>
+
             @foreach ($productDetails as $productDetail)
                 <div class="navbar bg-light shadow-sm border border-gray">
                     <div class="col-lg-2">

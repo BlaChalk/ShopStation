@@ -41,6 +41,9 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
+                            <a class="nav-link" href="/admin/categories">Category</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/admin/product-details">Product</a>
                         </li>
                         <!-- Authentication Links -->
@@ -78,6 +81,7 @@
         </nav>
 
         <main class="py-4">
+            @yield('page-title')
             @yield('content')
         </main>
     </div>
