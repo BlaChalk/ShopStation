@@ -76,12 +76,13 @@ class ProductDetailController extends Controller
         return view('product-detail', ['productDetail' => $productDetail]);
     }
 
-    public function showByPublicCategory(ProductDetail $productDetail)
+    public function showByPublicCategory()
     {
+        $productDetails = ProductDetail::all();
         $mainCategories = MainCategory::all();
         $categories = Category::all();
 
-        return view('product', ['productDetail' => $productDetail, 'mainCategories' => $mainCategories, 'categories' => $categories]);
+        return view('product', ['productDetails' => $productDetails, 'mainCategories' => $mainCategories, 'categories' => $categories]);
     }
 
     public function show(ProductDetail $productDetail)

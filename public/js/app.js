@@ -49773,6 +49773,10 @@ deleteMainCategory = function deleteMainCategory(id) {
   }
 };
 
+showThumbnail = function showThumbnail(id) {
+  $('#thumbnail').hide();
+}; // showThumbnail(1);
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

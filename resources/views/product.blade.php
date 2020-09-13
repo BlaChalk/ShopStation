@@ -105,169 +105,36 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                            <div class="exclusive-item exclusive-item-three text-center mb-50">
-                                <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
-                                    {{-- <ul class="action">
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
-                                        </li>
-                                    </ul> --}}
-                                </div>
-                                <div class="exclusive-item-content">
-                                    <h5><a href="#">電動站立式輪椅</a></h5>
-                                    {{-- <div class="exclusive--item--price">
-                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
-                                    </div> --}}
-                                    {{-- <div class="rating">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                            <div class="exclusive-item exclusive-item-three text-center mb-50">
-                                <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
-                                    {{-- <ul class="action">
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
-                                        </li>
-                                    </ul> --}}
-                                </div>
-                                <div class="exclusive-item-content">
-                                    <h5><a href="#">電動站立式輪椅</a></h5>
-                                    {{-- <div class="exclusive--item--price">
-                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
-                                    </div> --}}
-                                    {{-- <div class="rating">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                            <div class="exclusive-item exclusive-item-three text-center mb-50">
-                                <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
-                                    {{-- <ul class="action">
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
-                                        </li>
-                                    </ul> --}}
-                                </div>
-                                <div class="exclusive-item-content">
-                                    <h5><a href="#">電動站立式輪椅</a></h5>
-                                    {{-- <div class="exclusive--item--price">
-                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
-                                    </div> --}}
-                                    {{-- <div class="rating">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                            <div class="exclusive-item exclusive-item-three text-center mb-50">
-                                <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
-                                    {{-- <ul class="action">
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
-                                        </li>
-                                    </ul> --}}
-                                </div>
-                                <div class="exclusive-item-content">
-                                    <h5><a href="#">電動站立式輪椅</a></h5>
-                                    {{-- <div class="exclusive--item--price">
-                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
-                                    </div> --}}
-                                    {{-- <div class="rating">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                            <div class="exclusive-item exclusive-item-three text-center mb-50">
-                                <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
-                                    {{-- <ul class="action">
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
-                                        </li>
-                                    </ul> --}}
-                                </div>
-                                <div class="exclusive-item-content">
-                                    <h5><a href="#">電動站立式輪椅</a></h5>
-                                    {{-- <div class="exclusive--item--price">
-                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
-                                    </div> --}}
-                                    {{-- <div class="rating">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                            <div class="exclusive-item exclusive-item-three text-center mb-50">
-                                <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="" src="images/product/pro_img01.jpg"></a>
-                                    {{-- <ul class="action">
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
-                                        </li>
-                                    </ul> --}}
-                                </div>
-                                <div class="exclusive-item-content">
-                                    <h5><a href="#">電動站立式輪椅</a></h5>
-                                    {{-- <div class="exclusive--item--price">
-                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
-                                    </div> --}}
-                                    {{-- <div class="rating">
-                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
 
+                        @foreach ($productDetails as $productDetail)
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                            <div class="exclusive-item exclusive-item-three text-center mb-50">
+                                <div class="exclusive-item-thumb">
+                                    <a href=""><img alt="Picture" src="{{ $productDetail->bigPicture }}"></a>
+                                    {{-- <ul class="action">
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-supermarket"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-witness"></i></a>
+                                        </li>
+                                    </ul> --}}
+                                </div>
+                                <div class="exclusive-item-content">
+                                    <h5><a href="#">{{ $productDetail->name }}</a></h5>
+                                    {{-- <div class="exclusive--item--price">
+                                        <del class="old-price">$69.00</del><span class="new-price">$58.00</span>
+                                    </div> --}}
+                                    {{-- <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
                     </div>
                     <div class="pagination-wrap">
                         <ul>
