@@ -30,6 +30,11 @@
                     <div class="col-lg-2">
                         <h2 class="mb-0">{{ $productDetail->name }}</h2>
                         <small class="d-block text-muted"> 系列 / {{ $productDetail->serialName }}</small>
+                        @foreach ($categories as $category)
+                            @if ($productDetail->category_id == $category->id)
+                                <small class="d-block text-muted"> 總類 / {{ $category->name }}</small>
+                            @endif
+                        @endforeach
                         <small class="d-block text-muted"> 價錢 / {{ $productDetail->price }}</small>
                     </div>
                     <div class="col-lg-2">

@@ -29,11 +29,15 @@
     <div class="form-group">
         <label for="category">產品種類</label>
         <select name="category_id" class="form-control" id="">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            @foreach ($mainCategories as $item => $mainCategory)
+                <optgroup label="{{ $mainCategory->main_name }}">
+                    @foreach ($categories as $item => $category)
+                        @if ($category->main_category_id == $mainCategory->id)
+                            <option value="{{ $category->id }}">{{ $category->name }}</option>
+                        @endif
+                    @endforeach
+                </optgroup>
+            @endforeach
         </select>
     </div>
     <div class="form-group">
@@ -45,11 +49,11 @@
         @if ($productDetail->bigPicture)
             <img width="320" src="{{ $productDetail->bigPicture }}" alt="bigPicture">
         @endif
-        {{-- <div class="custom-file">
+        <div class="custom-file">
             <input type="file" name="bigPicture" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Choose file</label>
-        </div> --}}
-        <input id="input-1" type="file" name="bigPicture" class="file" data-preview-file-type="text"  data-show-upload="false"  multiple="multiple">
+        </div>
+        {{-- <input id="input-1" type="file" name="bigPicture" class="file" data-preview-file-type="text"  data-show-upload="false"  multiple="multiple"> --}}
     </div>
     <div class="form-group">
         <label for="content">產品介紹</label>
