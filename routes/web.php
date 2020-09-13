@@ -18,9 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/product', function () {
-    return view('product');
-});
+Route::get('/product', 'ProductDetailController@showByPublicCategory');
 
 Route::get('/product-single', function () {
     return view('product-single');

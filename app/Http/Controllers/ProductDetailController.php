@@ -3,8 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\ProductDetail;
+use App\Category;
+use App\MainCategory;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 
 class ProductDetailController extends Controller
 {
@@ -16,7 +20,10 @@ class ProductDetailController extends Controller
     public function index()
     {
         $productDetails = ProductDetail::all();
-        return view('/admin.productDetails.index', ['productDetails' => $productDetails]);
+        $mainCategories = MainCategory::all();
+        $categories = Category::all();
+
+        return view('/admin.productDetails.index', ['productDetails' => $productDetails, 'mainCategories' => $mainCategories, 'categories' => $categories]);
     }
 
     /**
@@ -27,7 +34,10 @@ class ProductDetailController extends Controller
     public function create()
     {
         $productDetail = new ProductDetail;
-        return view('/admin.productDetails.create', ['productDetail' => $productDetail]);
+        $mainCategories = MainCategory::all();
+        $categories = Category::all();
+
+        return view('/admin.productDetails.create', ['productDetail' => $productDetail, 'mainCategories' => $mainCategories, 'categories' => $categories]);
     }
 
     /**
@@ -66,6 +76,14 @@ class ProductDetailController extends Controller
         return view('product-detail', ['productDetail' => $productDetail]);
     }
 
+    public function showByPublicCategory(ProductDetail $productDetail)
+    {
+        $mainCategories = MainCategory::all();
+        $categories = Category::all();
+
+        return view('product', ['productDetail' => $productDetail, 'mainCategories' => $mainCategories, 'categories' => $categories]);
+    }
+
     public function show(ProductDetail $productDetail)
     {
         //
@@ -79,7 +97,10 @@ class ProductDetailController extends Controller
      */
     public function edit(ProductDetail $productDetail)
     {
-        return view('/admin.productDetails.edit', ['productDetail' => $productDetail]);
+        $mainCategories = MainCategory::all();
+        $categories = Category::all();
+
+        return view('/admin.productDetails.edit', ['productDetail' => $productDetail, 'mainCategories' => $mainCategories, 'categories' => $categories]);
     }
 
     /**

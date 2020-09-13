@@ -35,170 +35,30 @@
                                 <h6 class="title white-bg">Product Categories</h6>
                             </div>
                         <!-- Main Menu -->
-                            {{-- <ul class="nav navbar-nav">
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed inline-block" data-toggle="collapse" href="#t1"><img src="/images/sub/sub_pro_01.jpg">站立式輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv01" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav"  id="t1">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=138&amp;cid=168">電動站立式輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=138&amp;cid=167">半電動站立式輪椅</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv02"><img src="/images/sub/sub_pro_02.jpg">電動輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv02" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=176">戶外型電動輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=175">折疊式電動輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=205">躺式電動輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=140&amp;cid=180">動力推進器</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv03"><img src="/images/sub/sub_pro_03.jpg">電動代步車<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv03" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184">大型電動代步車</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=185">中型電動代步車</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv04"><img src="/images/sub/sub_pro_04.jpg">手動輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv04" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=199">鐵輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=187">經典款輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=201">運輸椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=303">躺式輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=188">高活動型輪椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=306">Tilt and reclining wheelchair</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=141&amp;cid=204">童車系列</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv05"><img src="/images/sub/sub_pro_05.jpg">助行器<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv05" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=200&amp;cid=305">拐杖</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=200&amp;cid=207">助行器</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=200&amp;cid=206">帶輪助行器</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv06"><img src="/images/sub/sub_pro_06.jpg">洗澡便器椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv06" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=202&amp;cid=293">便器椅</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=202&amp;cid=296">Shower Wheelchair</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=202&amp;cid=292">擺位洗澡椅</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv07"><img src="/images/sub/sub_pro_07.jpg">配件<span class="caret"></span></a> <!-- Dropdown level 1 -->
-                                    <div class="panel-collapse collapse" id="dropdown-lv07" style="height: 0px;">
-                                        <div class="panel-body">
-                                            <ul class="nav navbar-nav">
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=203">衛浴安全系列</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=210">可攜式鋁梯</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=208">輪椅餐桌</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=289">SUNRISE 減壓座墊</a>
-                                                </li>
-                                                <li>
-                                                    <a href="http://www.comfort-mobility.com/tw_product.php?fcid=143&amp;cid=297">其他配件</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul> --}}
                             <div class="sidelist" id="accordion">
 
-                                <div class="card mb-2">
-                                  <div class="card-header white-bg">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                                        <img src="/images/sub/sub_pro_01.jpg">站立式輪椅<span class="caret"></span>
-                                    </a>
-                                  </div>
-                                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                                    <div class="card-body ml-4">
-                                        <ul class="nav navbar-nav"  id="t1">
-                                            <li>
-                                                <a href="">電動站立式輪椅</a>
-                                            </li>
-                                            <li>
-                                                <a href="">半電動站立式輪椅</a>
-                                            </li>
-                                        </ul>
+                                @foreach ($mainCategories as $mainCategory)
+                                    <div class="card mb-2">
+                                        <div class="card-header white-bg">
+                                            <a class="card-link" data-toggle="collapse" href="#{{ $mainCategory->main_name }}">
+                                                <img src="{{ $mainCategory->thumbnail }}">{{ $mainCategory->main_name }}
+                                            </a>
+                                        </div>
+                                        <div id="{{ $mainCategory->main_name }}" class="collapse" data-parent="#accordion">
+                                            <div class="card-body ml-4">
+                                                <ul class="nav navbar-nav"  id="">
+                                                    @foreach ($categories as $category)
+                                                        @if ($mainCategory->id == $category->main_category_id)
+                                                            <li>
+                                                                <a href="">{{ $category->name }}</a>
+                                                            </li>
+                                                        @endif
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
-                                </div>
+                                @endforeach
 
                             </div>
                         <!-- Main Menu end -->
