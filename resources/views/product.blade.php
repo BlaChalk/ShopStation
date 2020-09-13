@@ -1,24 +1,25 @@
 @extends('layouts.frontend', [$page='product'])
 
 @section('page-title')
-    <!--page title start-->
-    <section class="page-title">
+    <!-- breadcrumb-area -->
+    <section class="breadcrumb-area breadcrumb-bg" data-background="/assets-shop/img/bg/breadcrumb_bg.jpg">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h4 class="text-uppercase">產品列表</h4>
-                    <ol class="breadcrumb">
-                        <li><a href="#">Home</a>
-                        </li>
-                        <li class="active"><a href="#">Blog</a>
-                        </li>
-                        <li class="active">Blog Listing</li>
-                    </ol>
+                <div class="col-12">
+                    <div class="breadcrumb-content text-center">
+                        <h2>Product List</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Product List</li>
+                            </ol>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--page title end-->
+    <!-- breadcrumb-area-end -->
 @endsection
 
 @section('content')
@@ -34,12 +35,12 @@
                                 <h6 class="title white-bg">Product Categories</h6>
                             </div>
                         <!-- Main Menu -->
-                            <ul class="nav navbar-nav">
+                            {{-- <ul class="nav navbar-nav">
                                 <li class="panel panel-default" id="dropdown">
-                                    <a class="collapsed inline-block" data-toggle="collapse" href="http://www.comfort-mobility.com/tw_product.php?fcid=139&amp;cid=184#dropdown-lv01"><img src="/images/sub/sub_pro_01.jpg">站立式輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
+                                    <a class="collapsed inline-block" data-toggle="collapse" href="#t1"><img src="/images/sub/sub_pro_01.jpg">站立式輪椅<span class="caret"></span></a> <!-- Dropdown level 1 -->
                                     <div class="panel-collapse collapse" id="dropdown-lv01" style="height: 0px;">
                                         <div class="panel-body">
-                                            <ul class="nav navbar-nav">
+                                            <ul class="nav navbar-nav"  id="t1">
                                                 <li>
                                                     <a href="http://www.comfort-mobility.com/tw_product.php?fcid=138&amp;cid=168">電動站立式輪椅</a>
                                                 </li>
@@ -176,8 +177,31 @@
                                         </div>
                                     </div>
                                 </li>
-                            </ul>
-                            <!-- Main Menu end -->
+                            </ul> --}}
+                            <div class="sidelist" id="accordion">
+
+                                <div class="card mb-2">
+                                  <div class="card-header white-bg">
+                                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                        <img src="/images/sub/sub_pro_01.jpg">站立式輪椅<span class="caret"></span>
+                                    </a>
+                                  </div>
+                                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body ml-4">
+                                        <ul class="nav navbar-nav"  id="t1">
+                                            <li>
+                                                <a href="">電動站立式輪椅</a>
+                                            </li>
+                                            <li>
+                                                <a href="">半電動站立式輪椅</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            </div>
+                        <!-- Main Menu end -->
 
                         </div>
                         <div class="widget">
@@ -422,115 +446,153 @@
 @endsection
 
 @section('footer')
-<!--footer start 1-->
-<footer id="footer" class="dark">
-    <div class="primary-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#" class="m-bot-20 footer-logo">
-                        <img class="retina" src="assets/img/logo-dark.png" alt="" />
-                    </a>
-                    <p>Massive is fully responsible, performance oriented and SEO optimized, retina ready WordPress theme.</p>
-
+    <!-- footer-area -->
+    <footer class="footer-area">
+        <div class="footer-top pt-65 pb-25">
+            <div class="container">
+                {{-- <div class="footer-newsletter-wrap footer-newsletter-two">
+                    <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                            <div class="newsletter-title">
+                                <h4>Subscribe Now !</h4>
+                                <span>Venam By Signing Up To Our Newsletter.</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="newsletter-form">
+                                <form action="#">
+                                    <input type="email" placeholder="Enter Your Email....">
+                                    <button class="btn yellow-btn">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <h5 class="text-uppercase">recent posts</h5>
-                    <ul class="f-list">
-                        <li><a href="#">Standard Blog post</a>
-                        </li>
-                        <li><a href="#">Quotation post</a>
-                        </li>
-                        <li><a href="#">Audio Post</a>
-                        </li>
-                        <li><a href="#">Massive Video Demo</a>
-                        </li>
-                        <li><a href="#">Blog Image Post</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="text-uppercase">quick link</h5>
-                    <ul class="f-list">
-                        <li><a href="#">About Massive</a>
-                        </li>
-                        <li><a href="#">Career</a>
-                        </li>
-                        <li><a href="#">Terms & Condition</a>
-                        </li>
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5 class="text-uppercase">Recent Work</h5>
-                    <ul class="r-work">
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/1.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/2.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/3.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/4.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/5.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/6.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/7.jpg" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="assets/img/recent-work/8.jpg" alt="" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="secondary-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <span class="m-top-10">Copyright 2012 - 2015 Massive Theme by <a href="http://themebucket.net/" class="f-link" target="_blank">ThemeBucket</a> | All Rights Reserved</span>
-                </div>
-                <div class="col-md-6">
-                    <div class="social-link circle pull-right">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
+                <div class="footer-alphabet mb-55">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="newsletter-title text-left mb-0">
+                                <h4>Find Out More :</h4>
+                                <span>Browse Alphabetically :</span>
+                                <span><a href="#">A</a></span>
+                                <span><a href="#">B</a></span>
+                                <span><a href="#">C</a></span>
+                                <span><a href="#">D</a></span>
+                                <span><a href="#">E</a></span>
+                                <span><a href="#">F</a></span>
+                                <span><a href="#">G</a></span>
+                                <span><a href="#">H</a></span>
+                                <span><a href="#">I</a></span>
+                                <span><a href="#">J</a></span>
+                                <span><a href="#">K</a></span>
+                                <span><a href="#">L</a></span>
+                                <span><a href="#">M</a></span>
+                                <span><a href="#">N</a></span>
+                                <span><a href="#">O</a></span>
+                                <span><a href="#">P</a></span>
+                                <span><a href="#">Q</a></span>
+                                <span><a href="#">R</a></span>
+                                <span><a href="#">S</a></span>
+                                <span><a href="#">T</a></span>
+                                <span><a href="#">U</a></span>
+                                <span><a href="#">V</a></span>
+                                <span><a href="#">W</a></span>
+                                <span><a href="#">X</a></span>
+                                <span><a href="#">Y</a></span>
+                                <span><a href="#">Z</a></span>
+                                <span><a href="#">0~9</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget mb-50">
+                            <div class="footer-logo mb-30">
+                                <a href="index.html"><img src="/assets-shop/img/logo/logo_black.png" alt=""></a>
+                            </div>
+                            <div class="footer-text mb-35">
+                                <p>Namkand sodales vel online best prices Amazon Check out ethnic wear, formal wear western wear
+                                Blood Pressure Rate Monito.</p>
+                            </div>
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6">
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Customer Service</h5>
+                            </div>
+                            <div class="fw-link">
+                                <ul>
+                                    <li><a href="#">Help Center</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Product Recalls</a></li>
+                                    <li><a href="#">Accessibility</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6">
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Quick Links</h5>
+                            </div>
+                            <div class="fw-link">
+                                <ul>
+                                    <li><a href="#">Return Policy</a></li>
+                                    <li><a href="#">Terms Of Use</a></li>
+                                    <li><a href="#">Security</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Store Pickup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget mb-50">
+                            <div class="fw-title mb-35">
+                                <h5>Customer Service</h5>
+                            </div>
+                            <div class="footer-contact">
+                                <ul>
+                                    <li><i class="fas fa-map-marker-alt"></i> W898 RTower Stat, Suite 56
+                                        Brockland, CA 9622 United States</li>
+                                    <li><i class="fas fa-headphones"></i> 458-965-3224</li>
+                                    <li><i class="fas fa-envelope-open"></i><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="693a1c1919061b1d2900070f06472a0604">[email&#160;protected]</a></li>
+                                    <li><i class="fas fa-fax"></i>458-965-3224</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<!--footer 1 end-->
+        <div class="copyright-wrap copyright-style-two">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="copyright-text">
+                            <p>Copyright © 2020 <a href="http://www.bootstrapmb.com/">bootstrapmb</a> All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-none d-md-block">
+                        <div class="payment-method-img text-right">
+                            <img src="/assets-shop/img/images/card_img.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-area-end -->
 @endsection

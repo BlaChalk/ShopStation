@@ -22,3 +22,5 @@
 <link rel="stylesheet" href="/assets-shop/css/default.css">
 <link rel="stylesheet" href="/assets-shop/css/style.css">
 <link rel="stylesheet" href="/assets-shop/css/responsive.css">
+<link rel="stylesheet" href="/css/frontend.css">
+
