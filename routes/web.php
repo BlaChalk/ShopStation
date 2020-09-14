@@ -32,5 +32,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // Admin
 
-Route::resource('/admin/product-details', 'ProductDetailController');
-Route::resource('/admin/categories', 'CategoryController');
+Route::group(['middleware' => ['auth']], function () {
+
+    Route::resource('/admin/product-details', 'ProductDetailController');
+    Route::resource('/admin/categories', 'CategoryController');
+});
