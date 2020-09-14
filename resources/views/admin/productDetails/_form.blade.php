@@ -60,11 +60,25 @@
         <textarea name="content" class="form-control" id="" rows="3">{{ $productDetail->content }}</textarea>
     </div>
     <div class="form-group">
-        <label for="content">詳細介紹</label>
+        <label class="form-inline" for="productDetail">詳細介紹</label>
+        @if ($productDetail->productDetailPicture)
+            <img width="320" src="{{ $productDetail->productDetailPicture }}" alt="productDetailPicture">
+        @endif
+        <div class="custom-file">
+            <input type="file" name="productDetailPicture" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose Picture</label>
+        </div>
         <textarea name="productDetail" class="form-control" id="" rows="6">{{ $productDetail->productDetail }}</textarea>
     </div>
     <div class="form-group">
-        <label for="specification" >產品規格表</label>
+        <label class="form-inline" for="specification" >產品規格表</label>
+        @if ($productDetail->specificationPicture)
+            <img width="320" src="{{ $productDetail->specificationPicture }}" alt="specificationPicture">
+         @endif
+        <div class="custom-file">
+            <input type="file" name="specificationPicture" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose Picture</label>
+        </div>
         <textarea name="specification" class="form-control" id="" rows="6">{{ $productDetail->specification }}</textarea>
     </div>
     <button type="submit" class="btn btn-primary">確認</button>

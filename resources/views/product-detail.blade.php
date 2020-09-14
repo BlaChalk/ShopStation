@@ -28,10 +28,10 @@
         <div class="container">
             <div class="row mb-95">
                 <div class="col-xl-7 col-lg-6">
-                    <div class="shop-details-nav-wrap">
+                    {{-- <div class="shop-details-nav-wrap">
                         <div class="shop-details-nav">
                             <div class="shop-nav-item">
-                                <img src="/assets-shop/img/product/sd_bottom01.jpg" alt="">
+                                <img src="{{ $productDetail->bigPicture }}" alt="">
                             </div>
                             <div class="shop-nav-item">
                                 <img src="/assets-shop/img/product/sd_bottom02.jpg" alt="">
@@ -46,13 +46,11 @@
                                 <img src="/assets-shop/img/product/sd_bottom03.jpg" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="shop-details-img-wrap">
                         <div class="shop-details-active">
                             <div class="shop-details-img">
-                                <a href="{{ $productDetail->bigPicture }}" alt="">
-                                    <img src="{{ $productDetail->bigPicture }}" alt="">
-                                </a>
+                                <a href="{{ $productDetail->bigPicture }}" class="popup-image"><img src="{{ $productDetail->bigPicture }}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -119,11 +117,11 @@
                         <ul class="nav nav-tabs mb-25" id="myTab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details"
-                                    aria-selected="true">Product Details</a>
+                                    aria-selected="true">詳細介紹</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="val-tab" data-toggle="tab" href="#val" role="tab" aria-controls="val"
-                                    aria-selected="false">Viewers Also Like</a>
+                                <a class="nav-link" id="specification-tab" data-toggle="tab" href="#specification" role="tab" aria-controls="specification"
+                                    aria-selected="false">規格表</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="looks-tab" data-toggle="tab" href="#looks" role="tab" aria-controls="looks"
@@ -133,9 +131,9 @@
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="details" role="tabpanel" aria-labelledby="details-tab">
                                 <div class="product-desc-content">
-                                    <h4 class="title">Product Details</h4>
+                                    {{-- <h4 class="title">Product Details</h4> --}}
                                     <div class="row">
-                                        <div class="col-xl-3 col-md-4">
+                                        {{-- <div class="col-xl-3 col-md-4">
                                             <div class="product-desc-img">
                                                 <img src="/assets-shop/img/product/desc_img.jpg" alt="">
                                             </div>
@@ -153,111 +151,20 @@
                                                 <li>Button cuff sleeves</li>
                                                 <li>Made in USA</li>
                                             </ul>
-                                        </div>
+                                        </div> --}}
+                                        @if ($productDetail->productDetailPicture)
+                                            <img src="{{ $productDetail->productDetailPicture }}" alt="productDetailPicture">
+                                        @endif
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="val" role="tabpanel" aria-labelledby="val-tab">
+                            <div class="tab-pane fade show active" id="specification" role="tabpanel" aria-labelledby="specification-tab">
                                 <div class="product-desc-content">
-                                    <h4 class="title">Product Details</h4>
+                                    {{-- <h4 class="title">Product Details</h4> --}}
                                     <div class="row">
-                                        <div class="col-xl-3 col-md-4">
-                                            <div class="product-desc-img">
-                                                <img src="/assets-shop/img/product/desc_img.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-9 col-md-8">
-                                            <h5 class="small-title">The Christina Fashion</h5>
-                                            <p>Cramond Leopard & Pythong Print Anorak Jacket In Beige but also the leap into electronic typesetting, remaining Lorem
-                                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                            <ul class="product-desc-list">
-                                                <li>65% poly, 35% rayon</li>
-                                                <li>Hand wash cold</li>
-                                                <li>Partially lined</li>
-                                                <li>Hidden front button closure with keyhole accents</li>
-                                                <li>Button cuff sleeves</li>
-                                                <li>Made in USA</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="looks" role="tabpanel" aria-labelledby="looks-tab">
-                                <div class="product-desc-content">
-                                    <h4 class="title">Product Details</h4>
-                                    <div class="row">
-                                        <div class="col-xl-3 col-md-4">
-                                            <div class="product-desc-img">
-                                                <img src="/assets-shop/img/product/desc_img.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-9 col-md-8">
-                                            <h5 class="small-title">The Christina Fashion</h5>
-                                            <p>Cramond Leopard & Pythong Print Anorak Jacket In Beige but also the leap into electronic typesetting, remaining Lorem
-                                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                            <ul class="product-desc-list">
-                                                <li>65% poly, 35% rayon</li>
-                                                <li>Hand wash cold</li>
-                                                <li>Partially lined</li>
-                                                <li>Hidden front button closure with keyhole accents</li>
-                                                <li>Button cuff sleeves</li>
-                                                <li>Made in USA</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
-                                <div class="product-desc-content">
-                                    <h4 class="title">Product Details</h4>
-                                    <div class="row">
-                                        <div class="col-xl-3 col-md-4">
-                                            <div class="product-desc-img">
-                                                <img src="/assets-shop/img/product/desc_img.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-9 col-md-8">
-                                            <h5 class="small-title">The Christina Fashion</h5>
-                                            <p>Cramond Leopard & Pythong Print Anorak Jacket In Beige but also the leap into electronic typesetting, remaining Lorem
-                                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                            <ul class="product-desc-list">
-                                                <li>65% poly, 35% rayon</li>
-                                                <li>Hand wash cold</li>
-                                                <li>Partially lined</li>
-                                                <li>Hidden front button closure with keyhole accents</li>
-                                                <li>Button cuff sleeves</li>
-                                                <li>Made in USA</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="qa" role="tabpanel" aria-labelledby="qa-tab">
-                                <div class="product-desc-content">
-                                    <h4 class="title">Product Details</h4>
-                                    <div class="row">
-                                        <div class="col-xl-3 col-md-4">
-                                            <div class="product-desc-img">
-                                                <img src="/assets-shop/img/product/desc_img.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-9 col-md-8">
-                                            <h5 class="small-title">The Christina Fashion</h5>
-                                            <p>Cramond Leopard & Pythong Print Anorak Jacket In Beige but also the leap into electronic typesetting, remaining Lorem
-                                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                            <ul class="product-desc-list">
-                                                <li>65% poly, 35% rayon</li>
-                                                <li>Hand wash cold</li>
-                                                <li>Partially lined</li>
-                                                <li>Hidden front button closure with keyhole accents</li>
-                                                <li>Button cuff sleeves</li>
-                                                <li>Made in USA</li>
-                                            </ul>
-                                        </div>
+                                        @if ($productDetail->specificationPicture)
+                                            <img src="{{ $productDetail->specificationPicture }}" alt="specificationPicture">
+                                        @endif
                                     </div>
                                 </div>
                             </div>
