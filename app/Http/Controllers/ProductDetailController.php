@@ -52,8 +52,10 @@ class ProductDetailController extends Controller
         $productDetail = new ProductDetail;
         $productDetail->fill($request->all());
         $productDetail->bigPicture = $this->addPicture($request);
-        $productDetail->productDetailPicture = $this->addProductDetailPicture($request);
-        $productDetail->specificationPicture = $this->addSpecificationPicture($request);
+        if(!is_null($request->file('productDetailPicture')))
+            $productDetail->productDetailPicture = $this->addProductDetailPicture($request);
+        if(!is_null($request->file('specificationPicture')))
+            $productDetail->specificationPicture = $this->addSpecificationPicture($request);
         $productDetail->save();
 
         return redirect('/admin/product-details');
@@ -136,7 +138,7 @@ class ProductDetailController extends Controller
             $productDetail->bigPicture = $this->addPicture($request);
         if(!is_null($request->file('productDetailPicture')))
             $productDetail->productDetailPicture = $this->addProductDetailPicture($request);
-        if(!is_null($request->file('productDetailPicture')))
+        if(!is_null($request->file('specificationPicture')))
             $productDetail->specificationPicture = $this->addSpecificationPicture($request);
 
         $productDetail->save();

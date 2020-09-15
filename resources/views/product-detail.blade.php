@@ -78,8 +78,8 @@
                             {{-- <a href="#">Guide</a>
                             <a href="#">Can't Find Your Size?</a> --}}
                             <ul>
-                                <li><a href="#">XXS</a></li>
-                                <li><a href="#">XS</a></li>
+                                <li><a href="#">紅</a></li>
+                                <li><a href="#">藍</a></li>
                             </ul>
                         </div>
                         <div class="perched-info">
@@ -123,10 +123,6 @@
                                 <a class="nav-link" id="specification-tab" data-toggle="tab" href="#specification" role="tab" aria-controls="specification"
                                     aria-selected="false">規格表</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="looks-tab" data-toggle="tab" href="#looks" role="tab" aria-controls="looks"
-                                    aria-selected="false">Looks</a>
-                            </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="details" role="tabpanel" aria-labelledby="details-tab">
@@ -154,6 +150,8 @@
                                         </div> --}}
                                         @if ($productDetail->productDetailPicture)
                                             <img src="{{ $productDetail->productDetailPicture }}" alt="productDetailPicture">
+                                        @else
+                                            <h5>{{ $productDetail->productDetail }}</h5>
                                         @endif
                                     </div>
                                 </div>
@@ -164,6 +162,8 @@
                                     <div class="row">
                                         @if ($productDetail->specificationPicture)
                                             <img src="{{ $productDetail->specificationPicture }}" alt="specificationPicture">
+                                        @else
+                                            <h5>{{ $productDetail->specification }}</h5>
                                         @endif
                                     </div>
                                 </div>
