@@ -50,7 +50,7 @@
                                                     @foreach ($categories as $category)
                                                         @if ($mainCategory->id == $category->main_category_id)
                                                             <li>
-                                                                <a href="">{{ $category->name }}</a>
+                                                            <a href="/product/{{ $category->id }}">{{ $category->name }}</a>
                                                             </li>
                                                         @endif
                                                     @endforeach
@@ -110,7 +110,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                             <div class="exclusive-item exclusive-item-three text-center mb-50">
                                 <div class="exclusive-item-thumb">
-                                    <a href=""><img alt="Picture" src="{{ $productDetail->bigPicture }}"></a>
+                                    <a href="/product-detail/{{ $productDetail->id }}"><img alt="Picture" src="{{ $productDetail->bigPicture }}"></a>
                                     {{-- <ul class="action">
                                         <li>
                                             <a href="http://v.bootstrapmb.com/2020/8/6d78d8710/shop-left-sidebar.html#"><i class="flaticon-shuffle-1"></i></a>
