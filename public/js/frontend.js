@@ -123,7 +123,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\LaravelWeb\ShopStation\resources\js\frontend.js */"./resources/js/frontend.js");
+module.exports = __webpack_require__(/*! C:\Users\BlaChalk\Documents\GitHub\ShopStation\resources\js\frontend.js */"./resources/js/frontend.js");
 
 
 /***/ })
