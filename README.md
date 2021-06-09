@@ -1,61 +1,50 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# ShopStation購物網站實作
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+此網站為2020年下旬，與龍熒企業股份有限公司所合作之暑期實習專案。本專案著重於購物系統後端的撰寫，故使用基於Bootstrap4所打造的付費模板作為前端，並不著墨於前端所給之其他網站內容。
 
-## About Laravel
+## 後臺系統介紹
+### 登入系統
+* **Route** /login
+![](https://i.imgur.com/TeZtgVy.png)
+本網站使用Laravel所內建的login架構進行登入的使用。
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 種類區分
+* **Route** /admin/categories
+![](https://i.imgur.com/kI3uy2c.png)
+點選右上角的【Create Category】
+![](https://i.imgur.com/J0NLRCW.png)
+輸入所需的名稱、圖示與子種類。
+![](https://i.imgur.com/clOjLgJ.png)
+成功新增！
+![](https://i.imgur.com/184VnOA.png)
+(前台畫面)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* **新增子種類**
+![](https://i.imgur.com/clOjLgJ.png)
+點選右上角的【Create Category】
+![](https://i.imgur.com/bNBSdw5.png)
+選擇「原始主分類」，點選需要新增的主分類。
+![](https://i.imgur.com/LWvlr5w.png)
+成功新增子分類！
+![](https://i.imgur.com/M1xib2b.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+(前台畫面)
 
-## Learning Laravel
+### 產品上架
+* **Route** /admin/product-details
+![](https://i.imgur.com/tzkNokl.png)
+點選右上角的【Create Product】
+![](https://i.imgur.com/aiGrKKa.png)
+輸入所需的各類資訊。
+![](https://i.imgur.com/dAxTqOR.png)
+成功新增產品！
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 前臺功能展示
+* **Route** /product
+![](https://i.imgur.com/p5JWK7k.png)
+左手邊可顯示種類。
+![](https://i.imgur.com/JHEiCnl.png)
+點進去後可顯示後台設定的資訊。
+![](https://i.imgur.com/BMAJW4q.png)
+下方點選可切換詳細介紹與規格表。
+![](https://i.imgur.com/Mc54cRy.png)

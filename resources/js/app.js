@@ -30,3 +30,19 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+deleteproductDetail = function (id) {
+    let result = confirm('Do you want to delete this Product?');
+    if (result){
+        let actionURL = '/admin/product-details/'+id;
+        $('#delete-form').attr('action', actionURL).submit();
+    }
+}
+
+deleteMainCategory = function (id) {
+    let result = confirm('Do you want to delete this MainCategory?');
+    if (result) {
+        let actionURL = '/admin/categories/'+id;
+        $('#delete-form').attr('action', actionURL).submit();
+    }
+}

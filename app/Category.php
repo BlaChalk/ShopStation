@@ -8,11 +8,16 @@ class Category extends Model
 {
 
     protected $fillable = [
-        'name',
+        'name', 'main_category_id',
     ];
 
-    public function commodities()
+    public function productDetails()
     {
-        return $this->hasMany('App/Commodity');
+        return $this->hasMany('App/ProductDetail');
+    }
+
+    public function main_category()
+    {
+        return $this->belongsTo('App/MainCategory');
     }
 }

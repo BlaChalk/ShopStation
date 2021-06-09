@@ -28,12 +28,14 @@
                 <div class="row ">
 
                     <div class="heading-title text-center">
+                        <br>
                         <h3 class="text-uppercase"> Life is just beginning.</h3>
                         <p class="half-txt p-top-30">本公司現有以下產品可供購買使用。</p>
                     </div>
-
+                </div>
+                <div class="row ">
                     <div class="col-md-4">
-                        <div class="featured-item feature-bg-box gray-bg text-center inline-block radius-less blue-bg">
+                        <div class="featured-item feature-bg-box gray-bg text-center inline-block radius-less">
                             <div class="productIcon">
                                 <img src="images/product/hot_pro_01.jpg" alt="">
                             </div>
@@ -43,7 +45,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
                             <div class="productIcon">
                                 <img src="images/product/hot_pro_02.jpg" alt="">
                             </div>
@@ -53,7 +55,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
                             <div class="productIcon">
                                 <img src="images/product/hot_pro_03.jpg" alt="">
                             </div>
@@ -71,7 +73,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
                             <div class="productIcon">
                                 <img src="images/product/hot_pro_04.jpg" alt="">
                             </div>
@@ -81,7 +83,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
                             <div class="productIcon">
                                 <img src="images/product/hot_pro_05.jpg" alt="">
                             </div>
@@ -91,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less blue-bg">
+                        <div class="featured-item feature-bg-box gray-bg text-center m-bot-0 inline-block radius-less">
                             <div class="productIcon">
                                 <img src="images/product/hot_pro_06.jpg" alt="">
                             </div>
@@ -112,14 +114,15 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-12">
                         <p class="theme-color txt-xl">公司創立沿革：</p>
                         <p class="light-txt">龍熒股份有限公司成立於一九七八年，秉持「愛心」、「品質」、「創新」的經營理念，卅多年來多次榮獲台灣精品獎、優良設計獎，公司並榮獲第一屆小巨人獎。以ＣＯＭＦＯＲＴ（康而富時尚輔具）品牌行銷五大洲，已經成為醫療復健器材界中的高品質代表。</p>
                         <p class="theme-color txt-xl">品牌簡介：</p>
                         <p class="light-txt">2003年ＣＯＭＦＯＲＴ（康而富時尚輔具），本著使用者至上的理念，打造舒適化、人性化、自主化、科技化的輔具，更以”時尚”輔具為概念，讓所有使用者更具自信與尊嚴。此外，為落實精耕醫材的目標，以使用者需求為前提，積極從事高品質,輕量化的新型輪椅、站立式輪椅、運動輪椅及電動代步車的設計開發。康而富的產品擁有多國認證,有歐盟的CE,美國的FDA,德國的TUV等,行銷全球,深獲肯定，目標要成為全球行動輔具業界中的第一品牌。</p>
                         <div>
-                            <a href="#" class="btn btn-medium btn-light-border   btn-transparent "> 品牌故事</a>
+                            <a href="#" class="btn btn-medium btn-light-border btn-transparent "> 品牌故事</a>
                         </div>
+                        <br>
                     </div>
                     {{-- <div class="col-md-5">
                         <!-- progress bar start -->
@@ -170,7 +173,7 @@
 
 
         <!--blog post-->
-        <div class="page-content">
+        {{-- <div class="page-content">
             <div class="container">
                 <div class="row">
 
@@ -390,12 +393,12 @@
         <!--promo-->
 
     </section>
-    <!--body content end-->
+    <!--body content end--> --}}
 @endsection
 
 @section('footer')
     <!--footer start 1-->
-    <footer id="footer" class="dark">
+    {{-- <footer id="footer" class="dark">
         <div class="primary-footer">
             <div class="container">
                 <div class="row">
@@ -490,7 +493,7 @@
             </div>
         </div>
 
-        <div class="secondary-footer">
+        {{-- <div class="secondary-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -507,7 +510,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </footer>
     <!--footer 1 end-->
 @endsection

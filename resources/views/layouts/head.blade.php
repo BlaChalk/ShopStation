@@ -1,33 +1,26 @@
 <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Mosaddek">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--favicon icon-->
-    <link rel="icon" type="image/png" href="images/favicon.jpg">
+<!--favicon icon-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg">
 
-    <title>康而富時尚輔具-購物網</title>
+<title>康而富時尚輔具-購物網</title>
 
-    <!--common style-->
-    <link href='http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
+<!-- CSS here -->
+<link rel="stylesheet" href="/assets-shop/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets-shop/css/animate.min.css">
+<link rel="stylesheet" href="/assets-shop/css/magnific-popup.css">
+<link rel="stylesheet" href="/assets-shop/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets-shop/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/assets-shop/css/jquery-ui.min.css">
+<link rel="stylesheet" href="/assets-shop/css/flaticon.css">
+<link rel="stylesheet" href="/assets-shop/css/odometer.css">
+<link rel="stylesheet" href="/assets-shop/css/aos.css">
+<link rel="stylesheet" href="/assets-shop/css/slick.css">
+<link rel="stylesheet" href="/assets-shop/css/default.css">
+<link rel="stylesheet" href="/assets-shop/css/style.css">
+<link rel="stylesheet" href="/assets-shop/css/responsive.css">
+<link rel="stylesheet" href="/css/frontend.css">
 
-    <!-- inject:css -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
-    <link rel="stylesheet" href="assets/vendor/elasic-slider/elastic.css">
-    <link rel="stylesheet" href="assets/vendor/iconmoon/linea-icon.css">
-    <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/shortcodes.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/default-theme.css">
-    <link rel="stylesheet" href="css/frontend.css">
-    <!-- endinject -->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="assets/vendor/backward/html5shiv.js"></script>
-    <script src="assets/vendor/backward/respond.min.js"></script>
-    <![endif]-->

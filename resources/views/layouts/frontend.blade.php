@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        @include('layouts.head')
-        @yield('head')
-        @yield('layouts.script')
-    </head>
+<head>
+    @include('layouts.head')
+
+    @yield('head')
+</head>
 
 <body>
     @include('layouts.preloader')
 
     <div class="wrapper">
-        @include('layouts.header', ['page'=>(isset($page))? $page : NULL])
+        @include('layouts.header')
 
         @yield('hero')
 
@@ -19,11 +19,13 @@
 
         @yield('content')
 
+        @include('layouts.footer')
+
         @yield('footer')
     </div>
 
     @include('layouts.js')
 
-</body>
+    @yield('layouts.script')
 
-</html>
+

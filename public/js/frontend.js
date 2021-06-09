@@ -93,7 +93,26 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+;
 
+(function () {
+  "use strict";
+
+  var $window, $document, $body;
+  $window = $(window);
+  $document = $(document);
+  $body = $("body");
+  /*==============================================
+   Pre loader init
+   ===============================================*/
+
+  $window.on("load", function () {
+    $body.imagesLoaded(function () {
+      $(".tb-preloader-wave").fadeOut();
+      $("#tb-preloader").delay(200).fadeOut("slow").remove();
+    });
+  });
+})(jQuery);
 
 /***/ }),
 
@@ -104,7 +123,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\LaravelWeb\ShopStation\resources\js\frontend.js */"./resources/js/frontend.js");
+module.exports = __webpack_require__(/*! C:\Users\BlaChalk\Documents\GitHub\ShopStation\resources\js\frontend.js */"./resources/js/frontend.js");
 
 
 /***/ })
